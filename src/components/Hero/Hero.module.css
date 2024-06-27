@@ -1,0 +1,21 @@
+.bg {
+  background: url("/hero-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero_shadow {
+  text-shadow: 1px 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.hero_line {
+  height: 158px;
+  width: 100%;
+  filter: blur(18.6px);
+  background: linear-gradient(
+    180deg,
+    rgb(232, 203, 150) 50%,
+    rgb(42, 193, 221) 72.458%
+  );
+}

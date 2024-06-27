@@ -1,0 +1,22 @@
+.bg {
+  background: url("/about-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about_card_shadow {
+  filter: blur(20px);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.about_line {
+  height: 158px;
+  width: 100%;
+  filter: blur(15.6px);
+  background: linear-gradient(
+    180deg,
+    rgb(108, 97, 76) 50%,
+    rgb(95, 161, 178) 72.458%
+  );
+}

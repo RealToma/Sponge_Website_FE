@@ -1,0 +1,84 @@
+.bg {
+  background: url("/total-supply.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.presale {
+  background: radial-gradient(
+    173.78% 103.12% at 50% 103.12%,
+    #ffd600 0%,
+    #7d6901 100%
+  );
+}
+
+.presale_text {
+  background: linear-gradient(90deg, rgb(210, 162, 0), rgb(108, 83, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.liqudity {
+  background: radial-gradient(
+    570.48% 93.47% at 15.62% 90.62%,
+    #03af14 0%,
+    #90f69a 100%
+  );
+}
+
+.liqudity_text {
+  background: linear-gradient(90deg, rgb(25, 186, 41), rgb(67, 64, 52));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.treasury {
+  background: radial-gradient(
+    570.48% 93.47% at 15.62% 90.62%,
+    #26564c 0%,
+    #377264 100%
+  );
+}
+
+.treasury_text {
+  background: linear-gradient(90deg, rgb(60, 251, 205), rgb(67, 64, 52));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.water {
+  background: radial-gradient(
+    570.48% 93.47% at 15.62% 90.62%,
+    #ffa740 0%,
+    #ae7c44 100%
+  );
+}
+
+.water_text {
+  background: linear-gradient(90deg, rgb(233, 164, 85), rgb(67, 64, 52));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.totalSupply {
+  filter: blur(20.3px);
+  background: linear-gradient(
+    180deg,
+    rgb(114, 117, 114) -32.339%,
+    rgb(56, 122, 173) 93.586%
+  );
+}
+
+.line {
+  width: 100%;
+  height: 110px;
+  background: linear-gradient(155.43deg, #727572 -14.95%, #387aad 83.44%);
+  filter: blur(18.3px);
+}

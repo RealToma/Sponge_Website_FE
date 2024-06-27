@@ -1,0 +1,10 @@
+.header_bg {
+  background: url("./header-bg.png");
+}
+
+.bg {
+  width: 100%;
+  height: 30px;
+  background: linear-gradient(180.01deg, #60625e 0.01%, #20d5c2 48.28%);
+  filter: blur(5px);
+}
