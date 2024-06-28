@@ -37,7 +37,7 @@ export const Airdrops = () => {
           </div>
         </div>
         <div
-          className={`${styles.airdrop_line}  w-full h-[110px] absolute -bottom-10`}
+          className={`${styles.airdrop_line}  absolute bottom-[-40px] w-full h-[110px]`}
         ></div>
       </div>
     </section>

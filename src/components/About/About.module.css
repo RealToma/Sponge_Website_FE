@@ -13,10 +13,16 @@
 .about_line {
   height: 158px;
   width: 100%;
-  filter: blur(15.6px);
+  filter: blur(12.6px);
   background: linear-gradient(
     180deg,
     rgb(108, 97, 76) 50%,
     rgb(95, 161, 178) 72.458%
   );
+}
+
+.woodCard {
+  background: url("./wood-card.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }

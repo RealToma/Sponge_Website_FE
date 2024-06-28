@@ -26,7 +26,7 @@ export const Hero = () => {
         </div>
       </div>
       <div
-        className={`${styles.hero_line} w-full absolute -bottom-[90px]`}
+        className={`${styles.hero_line} w-full absolute z-50 -bottom-[210px]`}
       ></div>
     </section>
   );

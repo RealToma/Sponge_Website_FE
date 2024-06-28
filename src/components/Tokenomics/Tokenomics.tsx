@@ -27,10 +27,7 @@ export const Tokenomics = () => {
             <img src="./total-gril.png" alt="" />
           </div>
         </div>
-        <div className="absolute w-[622px] -top-20 left-1/2 -translate-x-1/2 ">
-          <img src="./welcome.png" alt="" />
-        </div>
-        <div className={`${styles.line} absolute -bottom-16 `}></div>
+        <div className={`${styles.line} w-full absolute bottom-[-60px] `}></div>
       </div>
     </section>
   );

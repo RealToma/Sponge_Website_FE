@@ -5,6 +5,6 @@
 }
 
 .airdrop_line {
-  filter: blur(30px);
+  filter: blur(15px);
   background: linear-gradient(155.43deg, #3d415d -14.95%, #0a3249 83.44%);
 }

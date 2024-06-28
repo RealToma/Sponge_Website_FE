@@ -20,7 +20,8 @@ export const App = () => {
       <Airdrops />
       <Presale />
       {/* <RoadMap /> */}
-      {/* <Team /> */}
+      {/* <RoadMap /> */}
+      <Team />
       <GeneralOverview />
     </div>
   );
