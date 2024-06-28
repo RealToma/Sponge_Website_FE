@@ -1,8 +1,8 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 
 export type Props = {
-  onClick?: () => void;
-  children: React.ReactNode;
+  children: ReactNode;
   className?: string;
   leftIcon?: ReactNode;
+  borderColor?: string;
 };

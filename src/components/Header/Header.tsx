@@ -1,31 +1,32 @@
 import { Button } from "../../common";
 import { LINKS } from "../../constants";
-import styles from "./Header.module.css";
-
+import styles from "./header.module.css";
 export const Header = () => {
   return (
-    <header className={` ${styles.header_bg} w-full h-[144px] relative z-10`}>
-      <div className="w-full h-full container flex items-center justify-between">
-        <a href="#">
-          <img src="./logo.svg" alt="sponge" />
+    <header
+      className={`w-full relative min-h-[144px] flex items-center ${styles.bg} `}
+    >
+      <div className="container  justify-between flex items-center w-full h-full">
+        <a href="">
+          <img src="./logo.svg" alt="logo" />
         </a>
-        <ul className="flex gap-x-[52px] items-center">
-          {LINKS.map((link) => (
-            <li key={link.path}>
+        <ul className="flex items-center gap-x-[52px] ">
+          {LINKS.map((link, index) => (
+            <li key={index}>
               <a
                 href={link.path}
-                className="text-[18px] paytone transition-all duration-300 hover:text-[#F3D583] text-white font-[400] leading-[25.13px] text-left"
+                className="text-lg transition-all duration-300 hover:text-[#F3D583] paytone text-white font-normal leading-[25.13px]"
               >
                 {link.label}
               </a>
             </li>
           ))}
           <li>
-            <Button className="paytone">PRESALE TBA</Button>
+            <Button className="text-[#AF6D27]">PRESALE TBA</Button>
           </li>
         </ul>
       </div>
-      <div className={`w-full ${styles.bg} absolute left-0 -bottom-2 `}></div>
+      <div className={styles.blur}></div>
     </header>
   );
 };

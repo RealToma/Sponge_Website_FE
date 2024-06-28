@@ -1,14 +1,4 @@
-import {
-  About,
-  Airdrops,
-  GeneralOverview,
-  Header,
-  Hero,
-  Presale,
-  RoadMap,
-  Team,
-  Tokenomics,
-} from "./components";
+import { About, Header, Hero } from "./components";
 
 export const App = () => {
   return (
@@ -16,13 +6,6 @@ export const App = () => {
       <Header />
       <Hero />
       <About />
-      <Tokenomics />
-      <Airdrops />
-      <Presale />
-      {/* <RoadMap /> */}
-      {/* <RoadMap /> */}
-      <Team />
-      <GeneralOverview />
     </div>
   );
 };
