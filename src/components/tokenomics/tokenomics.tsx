@@ -3,11 +3,11 @@ import styles from "./tokenomics.module.css";
 export const Tokenomics = () => {
   return (
     <section className="w-full min-h-screen xl:max-h-[1467px] relative">
-      <div className="flex flex-col pt-[125px] items-center">
+      <div className="flex flex-col pt-[125px] items-center container px-8 xl:px-0">
         <h1 className="text-[38px] xl:text-7xl text-white luckiest font-normal leading-[72px] text-center">
           Total Supply
         </h1>
-        <p className=" text-[12px] xl:text-[26px] w-full xl:w-[60%] paytone text-[#F3D583] font-normal xl:leading-[36.3px] text-center">
+        <p className=" text-[12px] xl:text-[26px] w-full xl:w-[70%] paytone text-[#F3D583] font-normal xl:leading-[36.3px] text-center">
           We have a fixed supply, ensuring scarcity and value. Circulating
           Supply: The number of coins in circulation, available for trading.
           Burn Mechanism: To increase scarcity, a percentage of coins are
@@ -38,7 +38,9 @@ export const Tokenomics = () => {
         alt=""
         className=" w-[300px] xl:w-[622px] absolute -top-20 left-1/2 -translate-x-1/2 z-10 "
       />
-      <div className={`${styles.blur} absolute -bottom-10 `}></div>
+      <div
+        className={`${styles.blur} absolute -bottom-10 h-[70px]  xl:h-[110px] `}
+      ></div>
     </section>
   );
 };
