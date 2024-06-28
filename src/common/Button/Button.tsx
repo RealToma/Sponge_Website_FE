@@ -14,7 +14,7 @@ export const Button = ({
       <span
         className={`${styles.button} ${
           leftIcon ? "flex items-center gap-x-[5px]" : ""
-        } paytone text-xl font-normal leading-[27.92px] text-center inline-block bg-[#F3D583] px-[29px] pt-[14px] pb-[19px] ${className} `}
+        } paytone font-normal leading-[27.92px] text-center inline-block bg-[#F3D583] px-[29px] pt-[14px] pb-[19px] ${className} `}
       >
         {leftIcon}
         {children}
