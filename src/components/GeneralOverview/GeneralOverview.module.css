@@ -1,0 +1,11 @@
+.bg {
+  background: url("./general-info.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.blur {
+  filter: blur(15.6px);
+  background: linear-gradient(#7d8563 -0.68%, #00877c 109.8%);
+}

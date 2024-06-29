@@ -1,3 +1,4 @@
+import styles from "./airdrop.module.css";
 export const Airdrop = () => {
   return (
     <section className="w-full min-h-screen xl:h-[1308px] relative">
@@ -5,11 +6,11 @@ export const Airdrop = () => {
         <div className=" relative w-full pt-20 xl:pt-0 xl:w-1/2 h-full flex flex-col items-center justify-center">
           <div className="w-full xl:w-[462px] relative">
             <img src="./shell.png" alt="" />
-            <div className="absolute flex justify-center flex-col items-center pr-10 top-[40%] -translate-y-1/2">
+            <div className="absolute pl-0 md:pl-8 xl:pl-0 flex justify-center flex-col items-center pr-8 md:pr-0 xl:pr-10 top-[40%] -translate-y-1/2">
               <h1 className=" text-[17px]  md:text-[24px]  xl:text-[32px] text-[#723D00] paytone font-normal xl:leading-[44.67px] text-center">
                 Airdrops
               </h1>
-              <p className=" text-[10px] xl:text-sm w-[60%] text-[#263D6B] paytone font-normal xl:leading-[19.54px] text-center">
+              <p className="text-[10px] xl:text-sm w-[60%] text-[#263D6B] paytone font-normal xl:leading-[19.54px] text-center">
                 Get free coins by participating in community activities, holding
                 a certain amount of our memecoin, or completing simple tasks.
               </p>
@@ -18,11 +19,11 @@ export const Airdrop = () => {
 
           <div className="w-full xl:w-[462px] relative">
             <img src="./shell.png" alt="" />
-            <div className="absolute flex justify-center flex-col items-center pr-10 top-[40%] -translate-y-1/2">
-              <h1 className=" text-[17px] md:text-[24px] xl:text-[32px] text-[#723D00] paytone font-normal xl:leading-[44.67px] text-center">
+            <div className="absolute pl-0 md:pl-8 xl:pl-0 flex justify-center flex-col items-center pr-8 md:pr-0 xl:pr-10 top-[40%] -translate-y-1/2">
+              <h1 className=" text-[17px]  md:text-[24px]  xl:text-[32px] text-[#723D00] paytone font-normal xl:leading-[44.67px] text-center">
                 Presale
               </h1>
-              <p className="text-[10px]  xl:text-sm w-[60%] text-[#263D6B] paytone font-normal xl:leading-[19.54px] text-center">
+              <p className="text-[10px] xl:text-sm w-[60%] text-[#263D6B] paytone font-normal xl:leading-[19.54px] text-center">
                 Be an early bird! Buy coins at a discounted rate before they hit
                 the market.
               </p>
@@ -38,6 +39,9 @@ export const Airdrop = () => {
         alt=""
         className="z-[-1] w-full h-full absolute top-0  object-cover xl:object-fill"
       />
+      <div
+        className={`w-full h-[110px] absolute -bottom-10 ${styles.blur}`}
+      ></div>
     </section>
   );
 };

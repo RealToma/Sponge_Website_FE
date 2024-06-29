@@ -1,0 +1,4 @@
+.text_shadow {
+  filter: blur(100.3px);
+  background: rgb(0, 0, 0);
+}
