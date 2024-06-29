@@ -3,9 +3,9 @@ import { BuyIcon } from "../../icons";
 import styles from "./Hero.module.css";
 export const Hero = () => {
   return (
-    <section className={`${styles.bg} min-h-screen xl:h-[1080px]  relative `}>
+    <section id="home" className={`min-h-screen xl:h-[1080px]  relative `}>
       <div className="w-full container px-8 xl:px-0 flex h-full">
-        <div className=" w-full xl:w-1/2 h-full flex flex-col justify-center items-start">
+        <div className=" w-full  xl:pt-0 xl:w-1/2 h-full flex flex-col pt-80 justify-center items-start">
           <h1
             className={` ${styles.hero_shadow} relative text-[25px] md:text-[38px] xl:text-7xl luckiest font-normal text-white xl:leading-[72px] text-left`}
           >
@@ -21,7 +21,7 @@ export const Hero = () => {
             Chance.
           </p>
           <Button
-            className="montserrat w-full font-[600] !bg-[#070707] text-white"
+            className="montserrat transition-all duration-500 w-full font-[600] !bg-[#070707] text-white hover:!bg-white hover:!text-[#070707] "
             leftIcon={<BuyIcon />}
             borderColor="#F3D583"
           >
@@ -31,8 +31,13 @@ export const Hero = () => {
         <div className="hidden xl:inline-block w-1/2 h-full"></div>
       </div>
       <div
-        className={`${styles.blur} z-10 h-[70px] xl:h-[158px] absolute -bottom-14 `}
+        className={`${styles.blur} z-[99] h-[70px] xl:h-[158px] absolute -bottom-14 `}
       ></div>
+      <img
+        src="./hero-bg.png"
+        className="absolute  top-0 w-full h-full z-[-1] object-cover xl:object-fill"
+        alt=""
+      />
     </section>
   );
 };

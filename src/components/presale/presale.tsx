@@ -5,9 +5,12 @@ export const Presale = () => {
   return (
     <section className="w-full min-h-screen xl:h-[958px] relative">
       <div className="container flex-col-reverse xl:flex-row h-full flex px-8 xl:px-0">
-        <div className=" hidden w-full xl:w-[40%] h-full xl:flex items-center justify-start"></div>
+        <div className="w-full xl:w-[40%] h-full flex items-center justify-start">
+          <img data-aos="fade-right" src="./presale-person-1.png" alt="" />
+        </div>
         <div className=" w-full xl:w-[60%] h-full flex items-center">
           <div
+            data-aos="zoom-in"
             className={`${styles.wood_card} pb-[160px]   pt-[160px] xl:pt-[208px] flex flex-col items-center w-full xl:pb-[201px] pl-[80px] pr-[80px] xl:pl-[134px] xl:pr-[140px]`}
           >
             <h1 className=" text-[14px] md:text-[28px] xl:text-[40px] text-[#663C0C] luckiest font-normal leading-10 text-center">

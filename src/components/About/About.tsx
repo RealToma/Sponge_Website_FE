@@ -3,15 +3,16 @@ import { PlayIcon } from "../../icons";
 import styles from "./About.module.css";
 export const About = () => {
   return (
-    <section className="w-full relative min-h-screen xl:h-[1017px]">
+    <section id="about" className="w-full relative min-h-screen xl:h-[1017px]">
       <div className="w-full relative h-full">
         <img
           src="./about-bg.png"
           className="absolute top-0 z-[-1] left-0 w-full h-full object-cover xl:object-fill"
         />
-        <div className="w-full flex-col xl:flex-row flex h-full items-center gap-x-[20px] px-8 xl:px-0  container">
+        <div className="w-full flex-col xl:flex-row flex h-full pt-0 xl:pt-32 pb-0 xl:pb-72 items-center gap-x-[20px] px-8 xl:px-0  container">
           <div className="w-full xl:w-[60%]">
             <div
+              data-aos="zoom-in"
               className={`${styles.card} h-[500px] xl:min-h-[698px] xl:pt-[162px] xl:pb-[143px] flex px-0 xl:px-[142px]  flex-col items-center justify-center `}
             >
               <h1 className=" text-[15px] lg:text-[40px] text-[#AF6D27] font-normal xl:leading-10 text-center luckiest">
@@ -53,7 +54,7 @@ export const About = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} h-[70px] xl:h-[158px] absolute -bottom-8 `}
+        className={`${styles.blur} h-[200px] xl:h-[510px] absolute bottom-[-100px] xl:-bottom-[400px] `}
       ></div>
     </section>
   );

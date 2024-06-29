@@ -1,0 +1,4 @@
+.blur {
+  filter: blur(15.6px);
+  background: linear-gradient(180deg, #378d9f 50%, #000000 72.46%);
+}

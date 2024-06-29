@@ -7,13 +7,13 @@ export const Telegram = ({ className }: { className?: string }) => {
       fill="none"
       className={className}
     >
-      <g clip-path="url(#clip0_4_32570)">
+      <g clipPath="url(#clip0_4_32570)">
         <path
           d="M15 10L11 14L17 20L21 4L3 11L7 13L9 19L12 15"
           stroke="currentColor"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>

@@ -1,4 +1,4 @@
-import { Header } from "../components";
+import { Contact, Header } from "../components";
 import { Props } from "./types";
 
 export const Layout = ({ children }: Props) => {
@@ -6,6 +6,7 @@ export const Layout = ({ children }: Props) => {
     <>
       <Header />
       {children}
+      <Contact />
     </>
   );
 };

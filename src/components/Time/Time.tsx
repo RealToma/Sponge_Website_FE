@@ -1,27 +1,31 @@
 import { Button } from "../../common";
+import styles from "./Time.module.css";
 
 export const Time = () => {
   return (
-    <section className="w-full h-[1083px] relative ">
+    <section className="w-full min-h-screen xl:h-[1083px] relative ">
       <img
         src="./time-bg.png"
         alt=""
-        className="absolute top-0 z-[-1] left-0 object-fill w-full h-full"
+        className="absolute top-0 z-[-1] left-0 object-cover xl:object-fill w-full h-full"
       />
-      <div className="w-full container flex h-full">
-        <div className="w-1/2 h-full relative">
+      <div className="w-full pb-10 px-8 xl:px-0 container flex xl:flex-row flex-col h-full">
+        <div data-aos="fade-right" className=" w-full xl:w-1/2 h-full relative">
           <img
             src="./presale-person.png"
             alt=""
-            className="absolute -bottom-0 h-[600px] w-[400px] left-40"
+            className=" static xl:absolute -bottom-0 h-[600px] w-[400px] left-40"
           />
         </div>
-        <div className="w-1/2 h-full flex items-center justify-center">
+        <div
+          data-aos="zoom-in"
+          className=" w-full xl:w-1/2 h-full flex items-center justify-center"
+        >
           <div className="bg-[#F9D68F] w-full flex flex-col items-center rounded-[40px] pb-[24px] pt-[42px]">
             <img
               src="./time-avatar.png"
               alt=""
-              className="w-[345px] h-[345px]"
+              className=" w-[150px] xl:w-[345px] h-[150px] xl:h-[345px]"
             />
             <div>
               <h1 className="text-[28px] mt-[14px] font-normal leading-10 paytone">
@@ -31,10 +35,10 @@ export const Time = () => {
             <div className="flex mt-[17px] gap-x-[23px]">
               <div className="flex flex-col items-center">
                 <div className="flex gap-x-[7px]">
-                  <div className="w-[42px] gabriela h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
+                  <div className=" w-[26px] xl:w-[42px] gabriela h-[42px] xl:h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
                     0
                   </div>
-                  <div className="w-[42px] gabriela h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
+                  <div className=" w-[26px] xl:w-[42px] gabriela h-[42px] xl:h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
                     0
                   </div>
                 </div>
@@ -45,10 +49,10 @@ export const Time = () => {
 
               <div className="flex flex-col items-center">
                 <div className="flex gap-x-[7px]">
-                  <div className="w-[42px] gabriela h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
+                  <div className=" w-[26px] xl:w-[42px] gabriela h-[42px] xl:h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
                     0
                   </div>
-                  <div className="w-[42px] gabriela h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
+                  <div className=" w-[26px] xl:w-[42px] gabriela h-[42px] xl:h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
                     0
                   </div>
                 </div>
@@ -59,10 +63,10 @@ export const Time = () => {
 
               <div className="flex flex-col items-center">
                 <div className="flex gap-x-[7px]">
-                  <div className="w-[42px] gabriela h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
+                  <div className=" w-[26px] xl:w-[42px] gabriela h-[42px] xl:h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
                     0
                   </div>
-                  <div className="w-[42px] gabriela h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
+                  <div className=" w-[26px] xl:w-[42px] gabriela h-[42px] xl:h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
                     0
                   </div>
                 </div>
@@ -73,10 +77,10 @@ export const Time = () => {
 
               <div className="flex flex-col items-center">
                 <div className="flex gap-x-[7px]">
-                  <div className="w-[42px] gabriela h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
+                  <div className=" w-[26px] xl:w-[42px] gabriela h-[42px] xl:h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
                     0
                   </div>
-                  <div className="w-[42px] gabriela h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
+                  <div className=" w-[26px] xl:w-[42px] gabriela h-[42px] xl:h-[78px] bg-black  text-white flex items-center justify-center rounded-[4px] text-[28px] font-normal leading-5">
                     0
                   </div>
                 </div>
@@ -90,7 +94,7 @@ export const Time = () => {
               <div className="w-1/2 h-full bg-[#B89664] rounded-[20px]" />
             </div>
 
-            <div className="grid gap-x-[52px] gap-y-[16px] mb-[27px] grid-cols-2">
+            <div className="grid gap-x-[52px] gap-y-[16px] mb-[27px] grid-cols-1 xl:grid-cols-2">
               <Button
                 borderColor="#FEBA00"
                 className="!w-full !text-white  !bg-[#ED9D34]"
@@ -118,11 +122,16 @@ export const Time = () => {
             </div>
 
             <div className="w-full flex justify-center pt-[20px] border-t border-[#263D6B]">
-              <Button>Presale now</Button>
+              <Button className="luckiest text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[18px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-[#C57E33]">
+                Presale now
+              </Button>
             </div>
           </div>
         </div>
       </div>
+      <div
+        className={`${styles.blur} w-full h-[70px] xl:h-[113px] absolute -bottom-10 `}
+      ></div>
     </section>
   );
 };

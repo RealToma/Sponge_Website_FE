@@ -20,7 +20,7 @@ export const Accordion = ({ content, title }: Props) => {
         <p
           className={` absolute  transition-all duration-300  pl-3 pr-6 ${
             open
-              ? "-top-[15px] bg-[#005B81]  text-[#C5FFA9] "
+              ? "-top-[15px] bg-[#005B81]  !text-[#C5FFA9] "
               : "top-1/2 -translate-y-1/2"
           } text-[14px] xl:text-base text-[#E8F4F1] paytone font-normal leading-6 text-left`}
         >

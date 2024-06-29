@@ -6,12 +6,12 @@
 }
 
 .about_card_shadow {
-  filter: blur(20px);
+  filter: blur(30px);
   background: rgba(0, 0, 0, 0.4);
 }
 
 .blur {
   width: 100%;
   filter: blur(15.6px);
-  background: linear-gradient(180deg, #6c614c 50%, #5fa1b2 72.46%);
+  background: linear-gradient(#6c614c 50%, #5fa1b2 72.46%);
 }

@@ -29,17 +29,20 @@ const PHASE4 = [
 
 export const Roadmap = () => {
   return (
-    <section className="w-full relative h-[2421px]">
+    <section id="roadmap" className="w-full relative h-[2421px]">
       <img
         src="./roadmap-bg.png"
         alt=""
-        className="absolute top-0 left-0 w-full h-full object-fill z-[-1]"
+        className="absolute top-0 left-0 w-full h-full object-cover xl:object-fill z-[-1]"
       />
-      <img
-        src="./welcome.png"
-        alt=""
-        className="w-[250px] xl:w-[576px] absolute top-0 z-30 left-1/2 -translate-x-1/2"
-      />
+      <div className="absolute top-0 z-30 left-1/2 -translate-x-1/2">
+        <img
+          data-aos="zoom-in"
+          src="./welcome.png"
+          alt=""
+          className="w-[250px] xl:w-[576px] "
+        />
+      </div>
       <div className="absolute w-full h-[1656px]  xl:overflow-x-hidden top-1/2 -translate-y-1/2 left-0 ">
         <div className="w-full px-8  xl:px-0 h-full mt-44 xl:mt-0 relative">
           <img
@@ -74,7 +77,10 @@ export const Roadmap = () => {
         alt=""
         className="absolute hidden xl:inline-block left-0 top-1/2 -translate-y-1/2"
       />
-      <div className="container px-8 xl:px-0 pt-32 xl:pt-[240px]">
+      <div
+        data-aos="fade-up"
+        className="container px-8 xl:px-0 pt-32 xl:pt-[240px]"
+      >
         <h1 className=" text-[23px] xl:text-7xl text-[#D9D9D9] luckiest font-normal xl:leading-[100px] text-left">
           OUR ROAD MAP
         </h1>

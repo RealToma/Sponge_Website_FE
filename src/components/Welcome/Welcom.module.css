@@ -2,3 +2,8 @@
   filter: blur(100.3px);
   background: rgb(0, 0, 0);
 }
+
+.blur {
+  filter: blur(15.6px);
+  background: linear-gradient(180deg, #e8cb96 50%, #2ac1dd 72.46%);
+}

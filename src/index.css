@@ -43,3 +43,31 @@ body {
     #060609 100%
   );
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3d583;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #af6d27;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a55f14;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#root {
+  overflow-x: hidden;
+}

@@ -1,7 +1,6 @@
 import {
   About,
   Airdrop,
-  Contact,
   Faq,
   GeneralOverview,
   Hero,
@@ -19,12 +18,12 @@ export const Home = () => (
     <About />
     <Tokenomics />
     <Airdrop />
+    <Airdrop />
     <Presale />
     <Roadmap />
     <Team />
     <GeneralOverview />
     <Faq />
     <Security />
-    <Contact />
   </Layout>
 );
