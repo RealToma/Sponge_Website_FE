@@ -75,14 +75,14 @@ export const Security = () => {
         className='w-full absolute top-0 left-0  z-[-1] h-full object-cover xl:object-fill'
       />
       <div className='container px-5 xl:px-0  flex-col-reverse md:flex-col-reverse flex h-full xl:flex-row items-end justify-end pb-[237px]'>
-        <div className='h-full flex items-end w-full md:w-full xl:w-[40%] relative'>
+        <div className='h-full flex items-end w-full md:w-full xl:w-[30%] relative'>
           <img
             src='./securty-person.png'
             alt=''
-            className='w-full  h-[600px] xl:h-auto  static md:static xl:absolute bottom-[-130px]'
+            className='w-full h-[800px]  static md:static xl:absolute bottom-[-130px]'
           />
         </div>
-        <div className='w-full md:w-full xl:w-[60%]'>
+        <div className='w-full md:w-full xl:w-[70%]'>
           <h1
             ref={textContent}
             className='text-[28px] xl:text-7xl font-normal text-white luckiest leading-[72px] text-center'

@@ -60,7 +60,7 @@ export const GeneralOverview = () => {
             className=' h-full flex justify-center xl:justify-end items-end pb-0 xl:pb-20'
           >
             <div
-              className={`w-[200px] h-[400px] xl:h-[614px] translate-y-20 xl:translate-y-0 pb-20 flex items-center justify-center flex-col relative xl:w-[798px] ${styles.bg} `}
+              className={`w-[70%]  h-[400px] xl:h-[614px] translate-y-[200px] !z-[9999999] xl:translate-y-0 pb-20 flex items-center justify-center flex-col relative xl:w-[798px] ${styles.bg} `}
             >
               <p className=' text-[10px] mt-10 xl:mt-0 xl:text-[20px] w-[40%] xl:w-[50%] font-normal paytone xl:leading-[23.83px] tracking-[-0.02em] text-center'>
                 Hiya, pals! Welcome to my pineapple under the sea!

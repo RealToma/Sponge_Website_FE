@@ -71,7 +71,7 @@ export const JoinNow = () => {
         </div>
       </div>
       <img
-        src='/join-now-bg.png'
+        src='/join-now-bg.jpg'
         className=' absolute top-0 left-0 w-full z-[-1] h-full'
       />
       <div className={` absolute -bottom-20 z-10 ${styles.blur}`}></div>
