@@ -26,3 +26,5 @@ export const Home = () => (
     <Security />
   </Layout>
 );
+
+export default Home;

@@ -1,12 +1,12 @@
-import styles from "./Team.module.css";
-import gsap from "gsap";
-import { useEffect, useRef } from "react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger);
+import styles from './Team.module.css'
+import gsap from 'gsap'
+import { useEffect, useRef } from 'react'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+gsap.registerPlugin(ScrollTrigger)
 
 export const Team = () => {
-  const person = useRef<HTMLDivElement>(null);
-  const team = useRef<HTMLDivElement>(null);
+  const person = useRef<HTMLDivElement>(null)
+  const team = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     gsap.fromTo(
@@ -19,7 +19,7 @@ export const Team = () => {
           trigger: person.current,
         },
       }
-    );
+    )
 
     gsap.fromTo(
       team.current,
@@ -32,34 +32,34 @@ export const Team = () => {
           trigger: team.current,
         },
       }
-    );
-  }, []);
+    )
+  }, [])
 
   return (
-    <section id="team" className="w-full h-screen md:h-[1471px] relative">
+    <section id='team' className='w-full h-screen md:h-[1471px] relative'>
       <img
-        src="./team-bg.png"
-        alt=""
-        className="w-full h-full z-[-1] object-cover xl:object-fill"
+        src='./team-bg.png'
+        alt=''
+        className='w-full h-full z-[-1] object-cover xl:object-fill'
       />
       <div
         ref={person}
-        className="absolute w-[500px] top-[-270px] md:top-[-170px] xl:top-[-150px] left-[38%] xl:left-[43%] -translate-x-1/2 "
+        className='absolute w-[650px] xl:w-[800px] z-50 top-[-400px] md:top-[-200px] xl:top-[-300px] left-[30%] xl:left-[43%] -translate-x-1/2 '
       >
-        <img src="./team-img-1.png" alt="" className="w-full h-full" />
+        <img src='./team-img-1.png' alt='' className='w-full h-full' />
       </div>
       <div
         ref={team}
-        className="absolute bottom-[100px] md:bottom-[250px] xl:bottom-[100px] w-full flex flex-col items-center"
+        className='absolute bottom-[20px] md:bottom-[150px] pb-5 xl:bottom-[100px] w-full flex flex-col items-center'
       >
-        <h1 className=" text-[28px] xl:text-7xl font-normal xl:leading-[100px] text-left text-white luckiest">
+        <h1 className=' text-[28px] xl:text-7xl font-normal xl:leading-[100px] text-left text-white luckiest'>
           Team
         </h1>
-        <img src="./team.png" alt="" className="w-full xl:w-[901px]" />
+        <img src='./team.png' alt='' className='w-full xl:w-[901px]' />
       </div>
       <div
         className={`w-full h-[81px] ${styles.blur} absolute -bottom-5 `}
       ></div>
     </section>
-  );
-};
+  )
+}

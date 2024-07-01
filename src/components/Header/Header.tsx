@@ -8,6 +8,11 @@ export const Header = () => {
 
   const navigate = useNavigate();
 
+  const PrssaleHandle = () => {
+    setOpen(false);
+    navigate("/presale");
+  };
+
   useEffect(() => {
     if (open) {
       document.body.style.overflow = "hidden";
@@ -43,7 +48,7 @@ export const Header = () => {
             ))}
             <li>
               <Button
-                onClick={() => navigate("/presale")}
+                onClick={PrssaleHandle}
                 className="text-[#AF6D27] transition-all duration-500 hover:bg-[#070707] hover:text-white  "
               >
                 PRESALE TBA

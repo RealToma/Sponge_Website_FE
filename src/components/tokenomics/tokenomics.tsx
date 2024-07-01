@@ -69,12 +69,12 @@ export const Tokenomics = () => {
   return (
     <section
       id="tokenomics"
-      className="w-full min-h-screen xl:max-h-[1467px] relative"
+      className="w-full min-h-screen xl:h-[1083px] relative"
     >
-      <div className=" translate-y-8 xl:-translate-y-[198px]">
+      <div className=" absolute  -translate-x-1/2 w-full left-1/2 top-0 xl:-top-32">
         <div
           ref={textContent}
-          className="flex flex-col pt-[60px] xl:pt-[125px] items-center container px-5 xl:px-0"
+          className="flex flex-col  pt-[60px] xl:pt-[125px] items-center container px-5 xl:px-0"
         >
           <h1 className="text-[38px] xl:text-7xl text-white luckiest font-normal leading-[72px] text-center">
             Total Supply
@@ -89,25 +89,25 @@ export const Tokenomics = () => {
           </p>
         </div>
       </div>
-      <div className="container px-8 xl:px-0 flex-col-reverse xl:flex-row flex h-full">
+      <div className="container px-8 xl:px-0 flex-col-reverse xl:flex-row flex pt-[50px]  h-full">
         <div
           ref={tokenomics}
-          className="w-full xl:w-1/2 flex relative h-auto xl:h-full "
+          className="w-full xl:w-1/2 flex  items-end relative h-auto xl:h-full "
         >
           <img
             src="./tokenomics.png"
             alt=""
-            className="w-[600px] -translate-y-16 xl:translate-y-0 static xl:absolute  xl:top-[200px] left-0"
+            className="w-[600px] xl:w-full -translate-y-16 xl:translate-y-0 static xl:absolute  xl:bottom-[40px] left-0"
           />
         </div>
         <div
           ref={tokenGirl}
-          className="w-[400px] md:w-[900px] xl:w-1/2 relative pt-16 xl:pt-0 flex items-center h-auto: xl:h-full "
+          className="w-[400px] md:w-[900px] xl:w-1/2 relative pt-16 xl:pt-0  pb-32 flex items-end h-auto: xl:h-full "
         >
           <img
             src="./total-girl.png"
             alt=""
-            className=" translate-x-[0px] md:translate-x-[-140px] xl:translate-x-0  w-full xl:w-auto"
+            className="translate-x-[0px] translate-y-[80px] xl:translate-y-0 h-full xl:h-[904px] md:translate-x-[-140px] xl:translate-x-0  w-full xl:w-full"
           />
         </div>
       </div>

@@ -1,43 +1,29 @@
-import { Button } from "../../common";
-import { BuyIcon } from "../../icons";
-import styles from "./Hero.module.css";
+import styles from './Hero.module.css'
 export const Hero = () => {
   return (
-    <section id="home" className={`min-h-screen xl:h-[1080px]  relative `}>
-      <div className="w-full container px-5 xl:px-0 flex h-full">
-        <div className=" w-full  xl:pt-0 xl:w-1/2 h-full flex flex-col pt-40 justify-center items-start">
+    <section id='home' className={`min-h-screen xl:h-[1080px]  relative `}>
+      <div className='w-full container flex justify-center pt-[300px] px-5 xl:px-0 h-full'>
+        <div className='w-full flex flex-col items-center'>
           <h1
-            className={` ${styles.hero_shadow} relative text-[25px] md:text-[38px] xl:text-7xl luckiest font-normal text-white xl:leading-[72px] text-left`}
+            className={` ${styles.title_shadow} text-white w-[60%] luckiest text-center text-[27px] xl:text-[75px] not-italic font-normal leading-[111.425%]`}
           >
-            Bikini Bottom style combined w ith{" "}
-            <br className=" hidden xl:inline" /> Wall Street.
-            <span></span>
+            Welcome to the world of $Sponge
           </h1>
-          <p
-            className={`flex mt-[7px]  mb-[35px] paytone ${styles.hero_shadow} mt-5 mb-8 drop-shadow-2xl items-center gap-x-[13px] text-white text-[16px] md:text-2xl font-bold xl:leading-[29.26px] text-left`}
-          >
-            <div className="w-[72px] h-[3px]  bg-white rounded-[5px]" /> Missed
-            Sponge? This Is Your <br className="hidden xl:inline" /> Final
-            Chance.
+          <p className='text-white text-center luckiest mt-[13px] w-[90%] text-[18px] xl:text-[35px] not-italic font-normal leading-[111.425%]'>
+            where the financial savvy of Wall Street meets the whimsical charm
+            of Bikini Bottom. Dive into an ocean of opportunities with Spongebob
+            and his friends as your quides.
           </p>
-          <Button
-            className="montserrat transition-all duration-500 w-full font-[600] !bg-[#070707] text-white hover:!bg-white hover:!text-[#070707] "
-            leftIcon={<BuyIcon />}
-            borderColor="#F3D583"
-          >
-            BUY NOW
-          </Button>
         </div>
-        <div className="hidden xl:inline-block w-1/2 h-full"></div>
       </div>
       <div
         className={`${styles.blur} z-[99] h-[50px] xl:h-[158px] absolute -bottom-7 xl:-bottom-14 `}
       ></div>
       <img
-        src="./hero-bg.png"
-        className="absolute  top-0 w-full h-full z-[-1] object-cover xl:object-fill"
-        alt=""
+        src='./hero-bg.png'
+        className='absolute  top-0 w-full h-full z-[-1] object-cover xl:object-fill'
+        alt=''
       />
     </section>
-  );
-};
+  )
+}

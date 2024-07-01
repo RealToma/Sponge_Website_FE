@@ -1,6 +1,13 @@
 .card {
-  background: url("./wood-card.png");
+  background: url('./wood-card.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+.blur {
+  background: linear-gradient(180deg, #45a7b1 50%, #01aaa9 72.46%);
+  filter: blur(20.299999237060547px);
+  width: 100%;
+  height: 113px;
 }

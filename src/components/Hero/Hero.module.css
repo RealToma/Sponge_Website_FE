@@ -17,3 +17,7 @@
     rgb(42, 193, 221) 72.458%
   );
 }
+
+.title_shadow {
+  text-shadow: 0px 4px 5px #000;
+}

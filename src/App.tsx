@@ -1,29 +1,33 @@
-import { Route, Routes } from "react-router-dom";
-import { Home, Presale } from "./pages";
-import { CustomCursor } from "./common";
-import { useEffect } from "react";
+import { Route, Routes, useLocation } from 'react-router-dom'
+import { CustomCursor } from './common'
+import { useEffect, useState } from 'react'
+import { Loader } from './common/Loader/Loader'
+import { Home, Presale } from './pages'
 
 export const App = () => {
+  const [loading, setLoading] = useState(false)
+  const { pathname } = useLocation()
   useEffect(() => {
-    if (window.location.hash) {
-      const id = window.location.hash.replace("#", "");
-      const element = document.getElementById(id);
-      if (element) {
-        const yOffset = 400;
-        const y =
-          element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-        window.scrollTo({ top: y, behavior: "smooth" });
-      }
-    }
-  }, []);
+    window.scrollTo(0, 0)
+  }, [pathname])
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 0)
+  }, [])
 
   return (
     <>
+      {loading ? <Loader /> : null}
+
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/presale" element={<Presale />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/presale' element={<Presale />} />
       </Routes>
+
       <CustomCursor />
     </>
-  );
-};
+  )
+}
