@@ -1,3 +1,8 @@
+import gsap from "gsap";
+import { useEffect, useRef } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 export const UserItem = ({
   className,
   title,
@@ -7,9 +12,24 @@ export const UserItem = ({
   title: string;
   lists: string[];
 }) => {
+  const container = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    gsap.fromTo(
+      container.current,
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: container.current,
+        },
+      }
+    );
+  });
   return (
     <div
-      data-aos="fade-up"
+      ref={container}
       className={`flex w-full flex-col mt-10 xl:mt-0 xl:flex-row static  xl:absolute gap-x-[7px] items-start ${className} `}
     >
       <div className="flex items-start">

@@ -6,6 +6,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  cursor: none;
+}
+
 .paytone {
   font-family: "Paytone One", sans-serif;
 }
@@ -24,6 +28,7 @@
 
 body {
   overflow-x: hidden !important;
+  cursor: none !important;
 }
 
 .footer_icon_hover {
@@ -66,6 +71,7 @@ html {
 
 body {
   overflow-x: hidden;
+  cursor: url("./cursor.png"), auto important;
 }
 
 #root {

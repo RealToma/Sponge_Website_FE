@@ -1,6 +1,11 @@
 import styles from "./Roadmap.module.css";
 import { UserItem } from "./components/UserItem";
 
+import gsap from "gsap";
+import { useEffect, useRef } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 const PHASE1 = [
   "Presale: Launch $SWS token with heavy presale Limits (200 SOL per wallet)",
   "DEX Listing: List $SWS on decentralized exchanges",
@@ -28,6 +33,51 @@ const PHASE4 = [
 ];
 
 export const Roadmap = () => {
+  const welcome = useRef<HTMLDivElement>(null);
+  const textContent = useRef<HTMLDivElement>(null);
+  const person = useRef<HTMLImageElement>(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      welcome.current,
+      { opacity: 0, scale: 0.2 },
+      {
+        opacity: 1,
+        scale: 1,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: welcome.current,
+        },
+      }
+    );
+
+    gsap.fromTo(
+      textContent.current,
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: textContent.current,
+        },
+      }
+    );
+
+    gsap.fromTo(
+      person.current,
+      { opacity: 0, x: -50 },
+      {
+        opacity: 1,
+        x: 0,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: person.current,
+        },
+      }
+    );
+  }, []);
+
   return (
     <section id="roadmap" className="w-full relative h-[2421px]">
       <img
@@ -35,16 +85,14 @@ export const Roadmap = () => {
         alt=""
         className="absolute top-0 left-0 w-full h-full object-cover xl:object-fill z-[-1]"
       />
-      <div className="absolute top-0 z-30 left-1/2 -translate-x-1/2">
-        <img
-          data-aos="zoom-in"
-          src="./welcome.png"
-          alt=""
-          className="w-[250px] xl:w-[576px] "
-        />
+      <div
+        ref={welcome}
+        className="absolute w-full xl:w-auto -top-20 md:-top-44 xl:top-0 z-30 left-1/2 -translate-x-1/2"
+      >
+        <img src="./welcome.png" alt="" className="w-full xl:w-[576px] " />
       </div>
       <div className="absolute w-full h-[1656px]  xl:overflow-x-hidden top-1/2 -translate-y-1/2 left-0 ">
-        <div className="w-full px-8  xl:px-0 h-full mt-44 xl:mt-0 relative">
+        <div className="w-full px-8  xl:px-0 h-full mt-10 xl:mt-0 relative">
           <img
             src="./road-map-line.png"
             alt=""
@@ -72,19 +120,21 @@ export const Roadmap = () => {
           />
         </div>
       </div>
-      <img
-        src="./road-map-person.png"
-        alt=""
-        className="absolute hidden xl:inline-block left-0 top-1/2 -translate-y-1/2"
-      />
+
       <div
-        data-aos="fade-up"
-        className="container px-8 xl:px-0 pt-32 xl:pt-[240px]"
+        className="absolute hidden xl:inline-block left-0 top-1/2
+      -translate-y-1/2"
       >
-        <h1 className=" text-[23px] xl:text-7xl text-[#D9D9D9] luckiest font-normal xl:leading-[100px] text-left">
+        <img src="./road-map-person.png" alt="" ref={person} />
+      </div>
+      <div
+        ref={textContent}
+        className="container px-5 xl:px-0 pt-32 xl:pt-[240px]"
+      >
+        <h1 className="text-[23px] xl:text-7xl text-[#D9D9D9] luckiest font-normal xl:leading-[100px] text-left">
           OUR ROAD MAP
         </h1>
-        <p className="text-lg w-full xl:w-[60%] paytone text-[#F3D583] font-normal leading-[30px] text-left">
+        <p className=" text-[14px] xl:text-lg w-full xl:w-[60%] paytone text-[#F3D583] font-normal xl:leading-[30px] text-left">
           Patrick, Mr. Krabs, and even Squidward invested in $SWS, each dreaming
           of riches. As word spread, $SWS became popular across the ocean,
           bringing the whimsical world of Bikini Bottom to the high-stakes arena

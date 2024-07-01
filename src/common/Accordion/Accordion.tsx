@@ -11,7 +11,7 @@ export const Accordion = ({ content, title }: Props) => {
 
   return (
     <div
-      className={`w-full transition-all select-none duration-300 relative cursor-pointer ${
+      className={`w-full transition-all select-none duration-300 relative ${
         open ? "h-[127px]" : "h-[80px]"
       } border border-solid border-[#E8F4F1] rounded-md `}
       onClick={() => setOpen(!open)}

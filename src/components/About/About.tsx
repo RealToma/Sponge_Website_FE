@@ -1,19 +1,55 @@
 import { Button } from "../../common";
 import { PlayIcon } from "../../icons";
 import styles from "./About.module.css";
+import gsap from "gsap";
+import { useEffect, useRef } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 export const About = () => {
+  const container = useRef<HTMLDivElement>(null);
+  const aboutVideo = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      container.current,
+      { opacity: 0 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: container.current,
+        },
+      }
+    );
+
+    gsap.fromTo(
+      aboutVideo.current,
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: aboutVideo.current,
+        },
+      }
+    );
+  }, []);
+
   return (
     <section id="about" className="w-full relative min-h-screen xl:h-[1017px]">
       <div className="w-full relative h-full">
         <img
-          src="./about-bg.png"
+          src="./about-bg.jpg"
           className="absolute top-0 z-[-1] left-0 w-full h-full object-cover xl:object-fill"
         />
-        <div className="w-full flex-col xl:flex-row flex h-full pt-0 xl:pt-32 pb-0 xl:pb-72 items-center gap-x-[20px] px-8 xl:px-0  container">
-          <div className="w-full xl:w-[60%]">
+        <div className="w-full flex-col xl:flex-row flex h-full pt-0 xl:pt-32 pb-0 xl:pb-96 items-center gap-x-[20px] px-5 xl:px-0  container">
+          <div className="w-full py-8 xl:w-[60%]">
             <div
-              data-aos="zoom-in"
-              className={`${styles.card} h-[500px] xl:min-h-[698px] xl:pt-[162px] xl:pb-[143px] flex px-0 xl:px-[142px]  flex-col items-center justify-center `}
+              ref={container}
+              className={`${styles.card} h-[350px] xl:h-[500px] xl:min-h-[698px] xl:pt-[162px] xl:pb-[143px] flex px-0 xl:px-[142px]  flex-col items-center justify-center `}
             >
               <h1 className=" text-[15px] lg:text-[40px] text-[#AF6D27] font-normal xl:leading-10 text-center luckiest">
                 About Sponge{" "}
@@ -28,17 +64,21 @@ export const About = () => {
                 only underwater but also on the real Wall Street.{" "}
               </p>
               <Button
-                className="montserrat text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
+                className="montserrat transition-all duration-500 text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] hover:!text-[#070707] hover:!bg-white !text-white"
                 borderColor="#F3D583"
               >
                 LEARN MORE
               </Button>
             </div>
           </div>
-          <div className=" w-full pb-40 xl:pb-0 xl:w-[40%]">
+          <div ref={aboutVideo} className=" w-full pb-40 xl:pb-0 xl:w-[40%]">
             <div className="py-[30px] bg-[#F3D583] px-[31px] rounded-[27px] bg-[">
               <div className="w-full relative">
-                <img className="w-full" src="./about-video-img.png" alt="" />
+                <img
+                  className="w-full rounded-[13px]"
+                  src="./about-video-img.png"
+                  alt=""
+                />
                 <button className="absolute top-1/2 -translate-y-1/2 text-white left-1/2 -translate-x-1/2">
                   <PlayIcon />
                 </button>
@@ -54,7 +94,7 @@ export const About = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} h-[200px] xl:h-[510px] absolute bottom-[-100px] xl:-bottom-[400px] `}
+        className={`${styles.blur} h-[70px] xl:h-[510px] absolute bottom-[-44px] xl:-bottom-[280px] `}
       ></div>
     </section>
   );

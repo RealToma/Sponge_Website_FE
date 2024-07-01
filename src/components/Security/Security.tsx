@@ -1,32 +1,102 @@
 import { Button } from "../../common";
 import styles from "./Security.module.css";
 
+import gsap from "gsap";
+import { useEffect, useRef } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 export const Security = () => {
+  const textContent = useRef<HTMLDivElement>(null);
+
+  const card1 = useRef<HTMLDivElement>(null);
+  const card2 = useRef<HTMLDivElement>(null);
+  const card3 = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      textContent.current,
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: textContent.current,
+        },
+      }
+    );
+
+    gsap.fromTo(
+      card1.current,
+      { opacity: 0, rotateX: 50 },
+      {
+        opacity: 1,
+        rotateX: 0,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: card1.current,
+        },
+      }
+    );
+
+    gsap.fromTo(
+      card2.current,
+      { opacity: 0, rotateX: 50 },
+      {
+        opacity: 1,
+        rotateX: 0,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: card2.current,
+        },
+      }
+    );
+
+    gsap.fromTo(
+      card3.current,
+      { opacity: 0, rotateX: 50 },
+      {
+        opacity: 1,
+        rotateX: 0,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: card3.current,
+        },
+      }
+    );
+  }, []);
+
   return (
     <section className="w-full h-[1078px] relative ">
       <img
-        src="/security.png"
+        src="/security.jpg"
         alt=""
         className="w-full absolute top-0 left-0  z-[-1] h-full object-cover xl:object-fill"
       />
-      <div className="container px-8 xl:px-0 flex h-full flex-col justify-end pb-[137px]">
+      <div className="container px-5 xl:px-0  flex h-full flex-col justify-end pb-[237px]">
         <h1
-          data-aos="zoom-in"
-          className=" text-[28px] xl:text-7xl font-normal text-white luckiest leading-[72px] text-center"
+          ref={textContent}
+          className="text-[28px] xl:text-7xl font-normal text-white luckiest leading-[72px] text-center"
         >
           Security
         </h1>
         <p
-          data-aos="zoom-in"
-          className=" text-[14px] xl:text-xl paytone mb-4 xl:mb-[10px] text-white font-normal xl:leading-[34.23px] tracking-[-0.01em] text-center"
+          ref={textContent}
+          className="text-[14px] xl:text-xl paytone mb-4 xl:mb-[10px] text-white font-normal xl:leading-[34.23px] tracking-[-0.01em] text-center"
         >
           Stay vigilant and secure, and you'll enjoy the benefits <br /> of our
           memecoin without worries
         </p>
-        <div className="grid gap-x-[61px] grid-cols-1 gap-y-[61px] xl:grid-cols-3">
+        <div className="grid gap-x-[61px] relative grid-cols-1 gap-y-[61px] xl:grid-cols-3">
+          <img
+            src="./securty-person.png"
+            alt=""
+            className="absolute top-[-200px] xl:top-[-750px] left-[-100px] h-[1076px]"
+          />
           <div
-            data-aos="flip-up"
-            className="bg-[#F3D583] relative rounded-[21px]  py-[35px] px-[34px]"
+            ref={card1}
+            className="bg-[#F3D583]  rounded-[21px]  py-[35px] px-[34px]"
           >
             <h1 className=" text-[24px] xl:text-2xl font-normal xl:leading-6 text-left luckiest">
               Secure <br /> Transactions
@@ -37,7 +107,7 @@ export const Security = () => {
 
             <div className="absolute -bottom-4 xl:-bottom-8 left-1/2 -translate-x-1/2">
               <Button
-                className="montserrat text-[8px] md:!text-[10px]  xl:!text-[18px] !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
+                className="montserrat transition-all duration-500 hover:!bg-white hover:!text-[#070707] text-[8px] md:!text-[10px]  xl:!text-[18px] !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
                 borderColor="#F3D583"
               >
                 LEARN MORE
@@ -46,7 +116,7 @@ export const Security = () => {
           </div>
 
           <div
-            data-aos="flip-up"
+            ref={card2}
             className="bg-[#F3D583] relative rounded-[21px]  py-[35px] px-[34px]"
           >
             <h1 className=" text-[24px] xl:text-2xl font-normal xl:leading-6 text-left luckiest">
@@ -58,7 +128,7 @@ export const Security = () => {
 
             <div className="absolute -bottom-4 xl:-bottom-8 left-1/2 -translate-x-1/2">
               <Button
-                className="montserrat text-[8px] md:!text-[10px]  xl:!text-[18px] !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
+                className="montserrat transition-all duration-500 hover:!bg-white hover:!text-[#070707] text-[8px] md:!text-[10px]  xl:!text-[18px] !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
                 borderColor="#F3D583"
               >
                 LEARN MORE
@@ -67,7 +137,7 @@ export const Security = () => {
           </div>
 
           <div
-            data-aos="flip-up"
+            ref={card3}
             className="bg-[#F3D583] relative rounded-[21px]  py-[35px] px-[34px]"
           >
             <h1 className=" text-[24px] xl:text-2xl font-normal xl:leading-6 text-left luckiest">
@@ -80,7 +150,7 @@ export const Security = () => {
 
             <div className="absolute -bottom-4 xl:-bottom-8 left-1/2 -translate-x-1/2">
               <Button
-                className="montserrat text-[8px] md:!text-[10px]  xl:!text-[18px] !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
+                className="montserrat transition-all duration-500 hover:!bg-white hover:!text-[#070707] text-[8px] md:!text-[10px]  xl:!text-[18px] !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
                 borderColor="#F3D583"
               >
                 LEARN MORE

@@ -18,10 +18,10 @@ export const Header = () => {
 
   return (
     <header
-      className={`w-full fixed top-0  min-h-[100px] z-[999] flex items-center  ${styles.bg} `}
+      className={`w-full fixed top-0 min-h-[100px] z-[999] flex items-center  ${styles.bg} `}
     >
       <div className="w-full h-full relative flex items-center ">
-        <div className="container px-8 xl:px-0 justify-between flex items-center w-full h-full">
+        <div className="container px-5 xl:px-0 justify-between flex items-center w-full h-full">
           <Link to="/">
             <img src="./logo.svg" alt="logo" className="w-[73px] h-[73px]" />
           </Link>
@@ -52,7 +52,7 @@ export const Header = () => {
           </ul>
           <div
             onClick={() => setOpen(!open)}
-            className="w-[35px] h-[26px] z-[999] cursor-pointer flex xl:hidden flex-col justify-between"
+            className="w-[35px] h-[26px] z-[999] flex xl:hidden flex-col justify-between"
           >
             <div
               className={`w-full h-[3px] rounded bg-[#F3D583] transition-transform duration-300 ${
@@ -71,9 +71,6 @@ export const Header = () => {
             />
           </div>
         </div>
-        <div
-          className={`${styles.blur} w-full h-[20px] absolute  -bottom-3 `}
-        ></div>
       </div>
     </header>
   );

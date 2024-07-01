@@ -2,9 +2,7 @@
   background: url("./header-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.blur {
-  filter: blur(14.6px);
-  background: linear-gradient(#60625e 0.01%, #4791e6 48.28%);
+  -webkit-box-shadow: 7px 18px 32px 40px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 7px 18px 32px 40px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 10px black;
 }

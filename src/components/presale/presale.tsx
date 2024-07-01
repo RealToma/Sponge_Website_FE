@@ -1,16 +1,52 @@
 import { Button } from "../../common";
 import styles from "./presale.module.css";
+import gsap from "gsap";
+import { useEffect, useRef } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 export const Presale = () => {
+  const card = useRef<HTMLDivElement>(null);
+  const person = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      card.current,
+      { opacity: 0 },
+      {
+        opacity: 1,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: card.current,
+        },
+      }
+    );
+
+    gsap.fromTo(
+      person.current,
+      { opacity: 0, x: -50 },
+      {
+        opacity: 1,
+        x: 0,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: person.current,
+        },
+      }
+    );
+  }, []);
+
   return (
     <section className="w-full min-h-screen xl:h-[958px] relative">
-      <div className="container flex-col-reverse xl:flex-row h-full flex px-8 xl:px-0">
-        <div className="w-full xl:w-[40%] h-full flex items-center justify-start">
-          <img data-aos="fade-right" src="./presale-person-1.png" alt="" />
+      <div className="container flex-col-reverse xl:flex-row h-full flex px-5 xl:px-0">
+        <div
+          ref={person}
+          className="w-full xl:w-[40%] h-full flex xl:pb-0 pb-36 items-center justify-start"
+        >
+          <img className="" src="./presale-person-1.png" alt="" />
         </div>
-        <div className=" w-full xl:w-[60%] h-full flex items-center">
+        <div ref={card} className=" w-full xl:w-[60%] h-full flex items-center">
           <div
-            data-aos="zoom-in"
             className={`${styles.wood_card} pb-[160px]   pt-[160px] xl:pt-[208px] flex flex-col items-center w-full xl:pb-[201px] pl-[80px] pr-[80px] xl:pl-[134px] xl:pr-[140px]`}
           >
             <h1 className=" text-[14px] md:text-[28px] xl:text-[40px] text-[#663C0C] luckiest font-normal leading-10 text-center">
@@ -22,7 +58,7 @@ export const Presale = () => {
               coins!
             </p>
             <Button
-              className="montserrat text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
+              className="montserrat transition-all duration-500 text-[8px] hover:!text-[#070707] hover:!bg-white md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
               borderColor="#F3D583"
             >
               JOIN NOW

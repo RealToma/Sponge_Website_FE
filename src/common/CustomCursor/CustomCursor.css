@@ -1,0 +1,13 @@
+.custom-cursor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.15s ease;
+}
+
+.custom-cursor img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  pointer-events: none;
+}

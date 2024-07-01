@@ -1,7 +1,42 @@
 import { Button } from "../../common";
 import styles from "./Time.module.css";
+import gsap from "gsap";
+import { useEffect, useRef } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 export const Time = () => {
+  const time = useRef<HTMLDivElement>(null);
+  const person = useRef<HTMLImageElement>(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      time.current,
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: time.current,
+        },
+      }
+    );
+
+    gsap.fromTo(
+      person.current,
+      { opacity: 0, x: -50 },
+      {
+        opacity: 1,
+        x: 0,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: person.current,
+        },
+      }
+    );
+  }, []);
+
   return (
     <section className="w-full min-h-screen xl:h-[1083px] relative ">
       <img
@@ -9,19 +44,19 @@ export const Time = () => {
         alt=""
         className="absolute top-0 z-[-1] left-0 object-cover xl:object-fill w-full h-full"
       />
-      <div className="w-full pb-10 px-8 xl:px-0 container flex xl:flex-row flex-col h-full">
-        <div data-aos="fade-right" className=" w-full xl:w-1/2 h-full relative">
+      <div className="w-full pb-10 px-5 xl:px-0 container flex xl:flex-row flex-col h-full">
+        <div ref={person} className=" w-full xl:w-1/2 h-full relative">
           <img
             src="./presale-person.png"
             alt=""
             className=" static xl:absolute -bottom-0 h-[600px] w-[400px] left-40"
           />
         </div>
-        <div
-          data-aos="zoom-in"
-          className=" w-full xl:w-1/2 h-full flex items-center justify-center"
-        >
-          <div className="bg-[#F9D68F] w-full flex flex-col items-center rounded-[40px] pb-[24px] pt-[42px]">
+        <div className=" w-full xl:w-1/2 h-full flex items-center justify-center">
+          <div
+            ref={time}
+            className="bg-[#F9D68F] w-full flex flex-col items-center rounded-[40px] pb-[24px] pt-[42px]"
+          >
             <img
               src="./time-avatar.png"
               alt=""
@@ -122,7 +157,7 @@ export const Time = () => {
             </div>
 
             <div className="w-full flex justify-center pt-[20px] border-t border-[#263D6B]">
-              <Button className="luckiest text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[18px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-[#C57E33]">
+              <Button className="transition-all duration-500 hover:!bg-white  hover:!text-[#070707]   luckiest text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[18px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-[#C57E33]">
                 Presale now
               </Button>
             </div>
