@@ -6,6 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import copy from "copy-to-clipboard";
 import { addresPresaleSolana } from "../../config/address";
 import { shortAddress } from "../../libs/functions";
+
 gsap.registerPlugin(ScrollTrigger);
 
 export const Time = () => {
@@ -172,7 +173,7 @@ export const Time = () => {
             <div className="w-full flex justify-center pt-[20px] border-t border-[#263D6B]">
               <div className="py-[18px] w-full flex items-center  justify-between px-[27px] rounded-full bg-[#B65700]">
                 <p className="text-[#F9EFCB] paytone text-justify text-[14px] xl:text-base not-italic font-normal leading-[normal]">
-                  {shortAddress(addresPresaleSolana)}
+                  Send SOL to : {shortAddress(addresPresaleSolana)}
                 </p>
                 <button
                   className="w-[130px] h-[40px] rounded-[20px] text-[#231F20] text-xs not-italic font-bold leading-[normal] bg-[#CFA53C]"
@@ -188,7 +189,7 @@ export const Time = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} w-full h-[70px] xl:h-[113px] absolute -bottom-10 `}
+        className={`${styles.blur} w-[150%] translate-x-[-20%] h-[70px] xl:h-[113px] absolute -bottom-10 `}
       ></div>
     </section>
   );

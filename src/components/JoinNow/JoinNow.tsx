@@ -74,7 +74,9 @@ export const JoinNow = () => {
         src='/join-now-bg.jpg'
         className=' absolute top-0 left-0 w-full z-[-1] h-full'
       />
-      <div className={` absolute -bottom-20 z-10 ${styles.blur}`}></div>
+      <div
+        className={` absolute w-[150%] translate-x-[-20%] -bottom-20 z-10 ${styles.blur}`}
+      ></div>
     </section>
   )
 }

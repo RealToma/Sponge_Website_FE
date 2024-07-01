@@ -98,7 +98,7 @@ export const Airdrop = () => {
         className='z-[-1] w-full h-full absolute top-0  object-cover xl:object-right-bottom'
       />
       <div
-        className={`w-full h-[110px] absolute -bottom-10 ${styles.blur}`}
+        className={`w-[150%] translate-x-[-20%] h-[104px] absolute -bottom-10 ${styles.blur}`}
       ></div>
     </section>
   )

@@ -165,7 +165,7 @@ export const Security = () => {
         </div>
       </div>
       <div
-        className={` w-full h-[70px] xl:h-[122px] absolute -bottom-8 xl:-bottom-14 ${styles.blur}`}
+        className={` w-[150%] left-[-20%] h-[70px] xl:h-[122px] absolute -bottom-8 xl:-bottom-14 ${styles.blur}`}
       ></div>
     </section>
   )

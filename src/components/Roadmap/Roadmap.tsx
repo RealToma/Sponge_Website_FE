@@ -10,9 +10,21 @@ const PHASE1 = ['Presale Launch: Early birds catch the best prices on $Sponge.']
 
 const PHASE2 = ['DEX Launch: Dive into decentralized exchanges.']
 
-const PHASE3 = ['Krusty Krab Hustle']
+const PHASE3 = [
+  'Farming & Burning: Enhance your holdings with our fun farming and burning strategies.',
+]
 
-const PHASE4 = ['Global Adoption: Drive global mass Adoption of $SWS ']
+const PHASE4 = [
+  'CEX Listings + NFTs + Game: Join the hustle with centralized exchange listings, unique NFTs, and a Sponge-themed game.',
+]
+
+const PHASE5 = [
+  'Top-Tier Listings: Elevate $Sponge to new heights with tier-1 exchange listings.',
+]
+
+const PHASE6 = [
+  'Rewards and Raffles: Enjoy exclusive rewards and raffles for loyal $Sponge holders.',
+]
 
 export const Roadmap = () => {
   const welcome = useRef<HTMLDivElement>(null)
@@ -32,7 +44,6 @@ export const Roadmap = () => {
         },
       }
     )
-
     gsap.fromTo(
       textContent.current,
       { opacity: 0, y: 50 },
@@ -89,7 +100,7 @@ export const Roadmap = () => {
           <UserItem
             title='Phase 2'
             lists={PHASE2}
-            userName='Jellyfishing Fun'
+            userName='Ocean Splash'
             className='top-[360px] right-[-330px] w-full'
           />
           <UserItem
@@ -106,15 +117,15 @@ export const Roadmap = () => {
           />
           <UserItem
             title='Phase 5'
-            lists={PHASE4}
-            userName='Krusty Krab Hustle'
+            lists={PHASE5}
+            userName='High Tides'
             className='bottom-[350px] right-[-320px] w-full'
           />
 
           <UserItem
             title='Phase 6'
-            lists={PHASE4}
-            userName='Krusty Krab Hustle'
+            lists={PHASE6}
+            userName='Golden Pineapple'
             className='bottom-[150px] right-[-110px] w-full'
           />
         </div>
@@ -142,7 +153,7 @@ export const Roadmap = () => {
         </p>
       </div>
       <div
-        className={`${styles.blur} h-[118px] w-full absolute z-20 -bottom-8`}
+        className={`${styles.blur} h-[290px] w-[150%] translate-x-[-20%] absolute z-20 -bottom-20`}
       ></div>
     </section>
   )

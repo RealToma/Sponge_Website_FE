@@ -101,7 +101,7 @@ export const PresaleAbout = () => {
                 className='luckiest transition-all duration-500 hover:!bg-white  hover:!text-[#070707]  text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-[#C57E33]'
                 borderColor='#FEBA00'
               >
-                Bonous
+                Bonus
               </Button>
               <p className='ttext-base xl:ext-xl font-normal paytone leading-[27.92px] text-center'>
                 Early participants will receive a bonus percentage of coins.
@@ -111,7 +111,7 @@ export const PresaleAbout = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} w-full h-[70px] xl:h-[158px] absolute -bottom-12 `}
+        className={`${styles.blur} w-[150%] translate-x-[-25%] h-[70px] xl:h-[158px] absolute -bottom-12 `}
       ></div>
     </section>
   )

@@ -22,7 +22,7 @@ export const Welcome = () => {
         >
           where the financial savvy of Wall Street meets the whimsical charm of
           Bikini Bottom. Dive into an ocean of opportunities with Spongebob and
-          his friends as your quides.
+          his friends as your guides.
         </p>
       </div>
       <div

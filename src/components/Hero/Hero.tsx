@@ -12,16 +12,16 @@ export const Hero = () => {
           <p className='text-white text-center luckiest mt-[13px] w-[90%] text-[18px] xl:text-[35px] not-italic font-normal leading-[111.425%]'>
             where the financial savvy of Wall Street meets the whimsical charm
             of Bikini Bottom. Dive into an ocean of opportunities with Spongebob
-            and his friends as your quides.
+            and his friends as your guides.
           </p>
         </div>
       </div>
       <div
-        className={`${styles.blur} z-[99] h-[50px] xl:h-[158px] absolute -bottom-7 xl:-bottom-14 `}
+        className={`${styles.blur} z-[99] w-[150%] translate-x-[-20%] h-[50px] xl:h-[158px] absolute -bottom-7 xl:-bottom-14 `}
       ></div>
       <img
         src='./hero-bg.png'
-        className='absolute  top-0 w-full h-full z-[-1] object-cover xl:object-fill'
+        className='absolute  top-0  h-full z-[-1] object-cover xl:object-fill'
         alt=''
       />
     </section>

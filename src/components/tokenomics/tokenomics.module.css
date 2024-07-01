@@ -1,5 +1,4 @@
 .blur {
-  width: 100%;
-  filter: blur(45.6px);
-  background: linear-gradient(#727572 -14.95%, #387aad 83.44%);
+  background: linear-gradient(155deg, #7c8471 -14.95%, #00b1a8 83.44%);
+  filter: blur(15.149999618530273px);
 }
