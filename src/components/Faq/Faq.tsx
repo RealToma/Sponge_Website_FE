@@ -81,7 +81,7 @@ export const Faq = () => {
         </div>
       </div>
       <div
-        className={` ${styles.blur} w-[150%] left-[-150px]  absolute -bottom-5 h-[47px]`}
+        className={` ${styles.blur} w-[300%] left-[-150px]  absolute -bottom-5 h-[47px]`}
       ></div>
     </section>
   );

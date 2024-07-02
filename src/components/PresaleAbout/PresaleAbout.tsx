@@ -47,7 +47,7 @@ export const PresaleAbout = () => {
         className=' absolute top-0  z-[-1] w-full h-full object-cover xl:object-fill'
       />
       <div className='w-full gap-x-[23px] pb-10 xl:pb-0 pt-10 gap-y-4 xl:gap-y-0 h-full container px-5 xl:px-0 flex xl:flex-row flex-col'>
-        <div className=' w-full xl:w-1/2 h-full'>
+        <div className='z-[101] w-full xl:w-1/2 h-full'>
           <div
             ref={presaleAbout}
             className={` flex items-center flex-col justify-center w-full h-full ${styles.card}`}
@@ -67,7 +67,7 @@ export const PresaleAbout = () => {
             </Button>
           </div>
         </div>
-        <div className=' w-full xl:w-1/2 h-full flex items-center '>
+        <div className='z-[101] w-full xl:w-1/2 h-full flex items-center '>
           <div
             ref={cards}
             className='flex flex-col xl:flex-row flex-wrap justify-around gap-x-[26px] gap-y-[29px]'
@@ -111,7 +111,7 @@ export const PresaleAbout = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} w-[150%] translate-x-[-25%] h-[70px] xl:h-[158px] absolute -bottom-12 `}
+        className={`${styles.blur} w-[300%] left-[-150px]  translate-x-[-25%] h-[70px] xl:h-[158px] absolute -bottom-12 `}
       ></div>
     </section>
   )

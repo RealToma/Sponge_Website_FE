@@ -46,10 +46,11 @@ export const JoinNow = () => {
       >
         How to Join the Presale
       </h1>
+
       <div className="w-full flex justify-center">
         <div
           ref={card}
-          className={`${styles.card} flex justify-center items-center flex-col w-[1107px] h-[500px] xl:h-[853px] `}
+          className={`${styles.card} z-[101]  flex justify-center items-center flex-col w-[1107px] h-[500px] xl:h-[853px] `}
         >
           <h1 className="text-[#AF6D27] text-[18px] md:text-[30px] xl:text-[40px] font-normal leading-10 text-center luckiest">
             Join Now Presale

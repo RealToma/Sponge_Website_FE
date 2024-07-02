@@ -155,7 +155,7 @@ export const Roadmap = () => {
         </p>
       </div>
       <div
-        className={`${styles.blur} h-[290px] w-[150%] left-[-150px] translate-x-[-20%] absolute z-20 -bottom-20`}
+        className={`${styles.blur} h-[290px] w-[300%] left-[-150px] translate-x-[-20%] absolute z-20 -bottom-20`}
       ></div>
     </section>
   );

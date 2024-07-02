@@ -75,7 +75,7 @@ export const GeneralOverview = () => {
         </div>
       </div>
       <div
-        className={`w-[150%] left-[-150px] translate-x-[-20%] h-[68px] absolute -bottom-10 ${styles.blur} `}
+        className={`w-[300%] left-[-150px] translate-x-[-20%] h-[68px] absolute -bottom-10 ${styles.blur} `}
       ></div>
     </section>
   );

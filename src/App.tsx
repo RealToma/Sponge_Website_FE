@@ -22,21 +22,24 @@ export const App = () => {
 
   return (
     <>
-      {/* {loading ? <Loader /> : null} */}
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/presale" element={<Presale />} />
-        </Routes>
-        <VideoBackLoop>
-          <video autoPlay loop muted>
-            <source
-              src={"./video/gone-fishing-underwater-loop.mp4"}
-              type="video/mp4"
-            />
-          </video>
-        </VideoBackLoop>
-      </Layout>
+      {loading ? (
+        <Loader />
+      ) : (
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/presale" element={<Presale />} />
+          </Routes>
+          <VideoBackLoop>
+            <video autoPlay loop muted>
+              <source
+                src={"./video/gone-fishing-underwater-loop.mp4"}
+                type="video/mp4"
+              />
+            </video>
+          </VideoBackLoop>
+        </Layout>
+      )}
 
       <CustomCursor />
     </>
@@ -47,6 +50,22 @@ const Layout = styled(Box)`
   display: flex;
   width: 100%;
   flex-direction: column;
+  animation: animateBack 1s linear;
+  background-color: rgba(0, 0, 0, 0);
+  @keyframes animateBack {
+    0% {
+      background-color: rgba(0, 0, 0, 1);
+    }
+    /* 50% {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    70% {
+      background-color: rgba(0, 0, 0, 0.7);
+    } */
+    100% {
+      background-color: rgba(0, 0, 0, 0);
+    }
+  }
 `;
 
 const VideoBackLoop = styled(Box)`

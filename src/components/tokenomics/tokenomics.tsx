@@ -127,7 +127,7 @@ export const Tokenomics = () => {
         />
       </div>
       <div
-        className={`${styles.blur} absolute w-[150%] left-[-150px] translate-x-[-20%] -bottom-10 h-[70px]  xl:h-[110px] `}
+        className={`${styles.blur} absolute w-[300%] left-[-150px] translate-x-[-20%] -bottom-10 h-[70px]  xl:h-[110px] `}
       ></div>
     </section>
   );

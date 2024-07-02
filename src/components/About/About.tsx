@@ -118,7 +118,7 @@ export const About = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} h-[70px] w-[150%] left-[-150px] translate-x-[-20%] xl:h-[510px] absolute bottom-[-44px] xl:-bottom-[280px] `}
+        className={`${styles.blur} h-[70px] w-[300%] left-[-150px] translate-x-[-20%] xl:h-[510px] absolute bottom-[-44px] xl:-bottom-[280px] `}
       ></div>
     </section>
   );

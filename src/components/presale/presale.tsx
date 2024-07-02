@@ -72,7 +72,7 @@ export const Presale = () => {
         className='absolute top-0 left-0 w-full h-full z-[-1] object-cover xl:object-fill'
       />
       <div
-        className={`${styles.blur} w-[150%] left-[-150px] translate-x-[-20%] z-10 h-[70px] xl:h-[110px] absolute -bottom-10 `}
+        className={`${styles.blur} w-[300%] left-[-150px] translate-x-[-20%] z-10 h-[70px] xl:h-[110px] absolute -bottom-10 `}
       ></div>
       <img
         src='./presale-line.png'

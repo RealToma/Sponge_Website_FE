@@ -4,7 +4,7 @@ export const Welcome = () => {
   return (
     <section id="home" className={`min-h-screen xl:h-[1080px]  relative `}>
       <div className="w-full container flex justify-center pt-[300px] px-5 xl:px-0 h-full">
-        <div className="w-full flex flex-col items-center">
+        <div className="z-[101] w-full flex flex-col items-center">
           <h1
             className={` ${styles.title_shadow} text-white w-[90%] md:w-[75%] xl:w-[60%] luckiest text-center text-[50px] md:text-[60px] xl:text-[75px] not-italic font-normal leading-[111.425%]`}
           >
@@ -18,7 +18,7 @@ export const Welcome = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} z-[99] w-[150%] translate-x-[-20%] h-[50px] xl:h-[158px] absolute -bottom-7 xl:-bottom-14 `}
+        className={`${styles.blur} z-[99] w-[300%] left-[-150px] translate-x-[-20%] h-[50px] xl:h-[158px] absolute -bottom-7 xl:-bottom-14 `}
       ></div>
       <img
         src="./hero-bg.png"

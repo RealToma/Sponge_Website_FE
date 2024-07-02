@@ -17,7 +17,7 @@ export const Hero = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} z-[99] w-[150%] left-[-150px] translate-x-[-20%] h-[50px] xl:h-[158px] absolute -bottom-7 xl:-bottom-14 `}
+        className={`${styles.blur} z-[99] w-[300%] left-[-150px] translate-x-[-20%] h-[50px] xl:h-[158px] absolute -bottom-7 xl:-bottom-14 `}
       ></div>
       <img
         src="./hero-bg.png"
