@@ -41,11 +41,11 @@ export const Presale = () => {
       <div className='container flex-col-reverse xl:flex-row h-full flex px-5 xl:px-0'>
         <div
           ref={person}
-          className='w-full xl:w-[40%] h-full flex xl:pb-0 pb-36 items-center justify-start'
+          className='z-[101] w-full xl:w-[40%] h-full flex xl:pb-0 pb-36 items-center justify-start'
         >
           <img className='' src='./presale-person-1.png' alt='' />
         </div>
-        <div ref={card} className=' w-full xl:w-[60%] h-full flex items-center'>
+        <div ref={card} className='z-[101]  w-full xl:w-[60%] h-full flex items-center'>
           <div
             className={`${styles.wood_card} pb-[160px]   pt-[160px] xl:pt-[208px] flex flex-col items-center w-full xl:pb-[201px] pl-[80px] pr-[80px] xl:pl-[134px] xl:pr-[140px]`}
           >
@@ -72,7 +72,7 @@ export const Presale = () => {
         className='absolute top-0 left-0 w-full h-full z-[-1] object-cover xl:object-fill'
       />
       <div
-        className={`${styles.blur} w-[150%] translate-x-[-20%] z-10 h-[70px] xl:h-[110px] absolute -bottom-10 `}
+        className={`${styles.blur} w-[150%] left-[-150px] translate-x-[-20%] z-10 h-[70px] xl:h-[110px] absolute -bottom-10 `}
       ></div>
       <img
         src='./presale-line.png'

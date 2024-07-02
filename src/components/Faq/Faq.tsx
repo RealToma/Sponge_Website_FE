@@ -41,18 +41,18 @@ export const Faq = () => {
       <img
         src="./faq-bg.png"
         alt=""
-        className="absolute w-full h-full z-[-1] top-0 left-0 object-cover xl:object-fill"
+        className="absolute h-full z-[-1] top-0 left-0 object-cover xl:object-fill"
       />
       <div className="w-full container px-5 pt-44 xl:pt-0  xl:px-0 flex items-end h-full flex-col-reverse xl:flex-row pb-[50px]">
         <img
           ref={person}
-          src="./faq-img.png"
+          src="./faq-person.png"
           alt=""
-          className=" w-[70%] xl:w-[30%] "
+          className="z-[101]  w-[70%] xl:w-[30%] "
         />
         <div
           ref={card}
-          className=" w-full xl:w-[70%] pt-5 pb-5 xl:pt-[27px] xl:pb-[46px] pl-4 xl:pl-[48px] pr-4 xl:pr-[54px] bg-[#005B81] rounded-xl xl:rounded-[38px]"
+          className="z-[101]  w-full xl:w-[70%] pt-5 pb-5 xl:pt-[27px] xl:pb-[46px] pl-4 xl:pl-[48px] pr-4 xl:pr-[54px] bg-[#005B81] rounded-xl xl:rounded-[38px]"
         >
           <h1 className=" text-[28px] xl:text-7xl text-center luckiest font-normal leading-[77px] text-[#D9D9D9]">
             F.A.Q
@@ -81,7 +81,7 @@ export const Faq = () => {
         </div>
       </div>
       <div
-        className={` ${styles.blur} w-full  absolute -bottom-5 h-[47px]`}
+        className={` ${styles.blur} w-[150%] left-[-150px]  absolute -bottom-5 h-[47px]`}
       ></div>
     </section>
   );

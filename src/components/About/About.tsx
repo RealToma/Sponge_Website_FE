@@ -47,13 +47,13 @@ export const About = () => {
           className="absolute top-0 z-[-1] left-0 w-full h-full object-cover xl:object-fill"
         />
         <div className="w-full flex-col xl:flex-row flex h-full pt-0 xl:pt-32 pb-0 xl:pb-96 items-center gap-x-[20px] px-5 xl:px-0  container">
-          <div className="w-full py-8 xl:w-[60%]">
+          <div className=" z-[101] w-full py-8 xl:w-[60%]">
             <div
               ref={container}
-              className={`${styles.card} h-[350px] xl:h-[500px] xl:min-h-[698px] xl:pt-[162px] xl:pb-[143px] flex px-0 xl:px-[142px]  flex-col items-center justify-center `}
+              className={`${styles.card}  z-[101] h-[350px] xl:h-[500px] xl:min-h-[698px] xl:pt-[162px] xl:pb-[143px] flex px-0 xl:px-[142px]  flex-col items-center justify-center`}
             >
               <h1 className=" text-[15px] lg:text-[40px] text-[#AF6D27] font-normal xl:leading-10 text-center luckiest">
-                About Sponge{" "}
+                About Sponge
               </h1>
               <p className=" w-[60%] md:w-[45%] xl:w-auto leading-[8px] md:leading-3  text-[7px] md:text-[10px] xl:text-[14px] mt-1 xl:mt-[10px] mb-[5px] text-[#263D6B]  font-normal xl:leading-[28px] text-center paytone">
                 The Tale of Sponge of Wallstreet on the Solana Blockchain
@@ -72,7 +72,7 @@ export const About = () => {
               </Button>
             </div>
           </div>
-          <div ref={aboutVideo} className="w-full pb-40 xl:pb-0 xl:w-[30%]">
+          <div ref={aboutVideo} className="w-full pb-40 xl:pb-0 xl:w-[30%] z-[101]">
             <div className="py-[20px] bg-[#F3D583] px-[20px] xl:py-[20px] rounded-[27px]">
               <div className="w-full relative">
                 {/* {isPlay ? (
@@ -102,7 +102,7 @@ export const About = () => {
                   </>
                 )} */}
                 <video
-                  src="./video.mp4"
+                  src="./video/sponge_adver.mp4"
                   muted
                   autoPlay
                   loop
@@ -118,7 +118,7 @@ export const About = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} h-[70px] w-[150%] translate-x-[-20%] xl:h-[510px] absolute bottom-[-44px] xl:-bottom-[280px] `}
+        className={`${styles.blur} h-[70px] w-[150%] left-[-150px] translate-x-[-20%] xl:h-[510px] absolute bottom-[-44px] xl:-bottom-[280px] `}
       ></div>
     </section>
   );

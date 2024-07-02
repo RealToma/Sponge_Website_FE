@@ -75,14 +75,14 @@ export const Security = () => {
         className="w-full absolute top-0 left-0  z-[-1] h-full object-cover xl:object-fill"
       />
       <div className="container px-5 xl:px-0  flex-col-reverse md:flex-col-reverse flex h-full xl:flex-row items-end justify-end pb-[237px]">
-        <div className="h-full flex items-end w-full md:w-full xl:w-[30%] relative">
+        <div className="z-[101] h-full flex items-end w-full md:w-full xl:w-[30%] relative">
           <img
             src="./securty-person.png"
             alt=""
             className=" h-[400px] xl:h-[600px]  static md:static xl:absolute xl:bottom-[-130px] bottom-[-200px]"
           />
         </div>
-        <div className="w-full md:w-full xl:w-[70%]">
+        <div className="z-[101]  w-full md:w-full xl:w-[70%]">
           <h1
             ref={textContent}
             className="text-[28px] xl:text-7xl font-normal text-white luckiest leading-[72px] text-center"
@@ -165,7 +165,7 @@ export const Security = () => {
         </div>
       </div>
       <div
-        className={` w-[150%] left-[-20%] h-[70px] xl:h-[122px] absolute -bottom-8 xl:-bottom-14 ${styles.blur}`}
+        className={`z-[103] w-[150%] left-[-20%] h-[70px] xl:h-[122px] absolute -bottom-8 xl:-bottom-14 ${styles.blur}`}
       ></div>
     </section>
   );

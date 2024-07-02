@@ -44,13 +44,13 @@ export const Team = () => {
       />
       <div
         ref={person}
-        className='absolute w-[450px] xl:w-[800px] z-50 top-[-210px] md:top-[-200px] xl:top-[-300px] left-[30%] xl:left-[43%] -translate-x-1/2 '
+        className='z-[101] absolute w-[450px] xl:w-[800px] z-50 top-[-210px] md:top-[-200px] xl:top-[-300px] left-[30%] xl:left-[43%] -translate-x-1/2 '
       >
         <img src='./team-img-1.png' alt='' className='w-full h-full' />
       </div>
       <div
         ref={team}
-        className='absolute bottom-[-30px] md:bottom-[150px] pb-20 md:pb-44  xl:pb-0 xl:bottom-[100px] w-full flex flex-col items-center'
+        className='z-[101] absolute bottom-[-30px] md:bottom-[150px] pb-20 md:pb-44  xl:pb-0 xl:bottom-[100px] w-full flex flex-col items-center'
       >
         <h1 className=' text-[28px] xl:text-7xl font-normal xl:leading-[100px] text-left text-white luckiest'>
           Team
@@ -58,7 +58,7 @@ export const Team = () => {
         <img src='./team.png' alt='' className='w-full xl:w-[901px]' />
       </div>
       <div
-        className={`w-[150%] translate-x-[-20%] h-[79px] ${styles.blur} absolute -bottom-10 `}
+        className={`w-[150%] left-[-150px] translate-x-[-20%] h-[79px] ${styles.blur} absolute -bottom-10 `}
       ></div>
     </section>
   )

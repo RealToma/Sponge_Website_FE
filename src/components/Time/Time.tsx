@@ -78,7 +78,7 @@ export const Time = () => {
             />
             <div className="w-full flex justify-center">
               <h1 className="text-[28px] mt-[14px] font-normal leading-10 paytone">
-                Auction Ending in
+                Presale Ending in
               </h1>
             </div>
             <div className="flex m-auto mt-[17px] gap-x-[23px]">
