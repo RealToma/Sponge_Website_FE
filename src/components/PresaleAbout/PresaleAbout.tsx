@@ -42,7 +42,7 @@ export const PresaleAbout = () => {
   return (
     <section className='w-full h-[898px] relative'>
       <img
-        src='./presale-about-bg.png'
+        src='/presale-about-bg.png'
         alt=''
         className=' absolute top-0  z-[-1] w-full h-full object-cover xl:object-fill'
       />

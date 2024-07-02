@@ -74,7 +74,7 @@ export const ReasonToHave = () => {
         </div>
       </div>
       <img
-        src="./reason-to-have.png"
+        src="/reason-to-have.png"
         className="paytone object-cover xl:object-fill absolute luckiest top-0 left-0 w-full h-full z-[-1]"
       />
       <div

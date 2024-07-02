@@ -20,7 +20,7 @@ export const CustomCursor = () => {
       className="custom-cursor"
       style={{ left: `${position.x}px`, top: `${position.y}px` }}
     >
-      <img src="./cursor.png" alt="custom cursor" />
+      <img src="/cursor.png" alt="custom cursor" />
     </div>
   );
 };

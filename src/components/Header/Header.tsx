@@ -40,7 +40,7 @@ export const Header = () => {
               });
             }}
           >
-            <img src="./logo.svg" alt="logo" className="w-[73px] h-[73px]" />
+            <img src="/logo.svg" alt="logo" className="w-[73px] h-[73px]" />
           </Link>
           <ul
             className={` transition-all duration-300 ${

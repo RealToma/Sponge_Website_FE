@@ -54,14 +54,14 @@ export const Time = () => {
   return (
     <section className="w-full min-h-screen xl:h-[1083px] relative ">
       <img
-        src="./time-bg.png"
+        src="/time-bg.png"
         alt=""
         className="absolute top-0 z-[-1] left-0 object-cover xl:object-fill w-full h-full"
       />
       <div className="w-full pb-10 px-5 xl:px-0 container flex xl:flex-row flex-col h-full">
         <div ref={person} className="z-[101] w-full xl:w-1/2 h-full relative">
           <img
-            src="./presale-person.png"
+            src="/presale-person.png"
             alt=""
             className=" static xl:absolute -bottom-0 h-[400px] xl:h-[600px] w-[400px] left-40"
           />
@@ -72,7 +72,7 @@ export const Time = () => {
             className="bg-[#F9D68F] w-full px-[20px] xl:px-[97px] flex flex-col rounded-[40px] pb-[24px] pt-[42px]"
           >
             <img
-              src="./time-avatar.png"
+              src="/time-avatar.png"
               alt=""
               className=" w-[150px] m-auto xl:w-[345px] h-[150px] xl:h-[345px]"
             />

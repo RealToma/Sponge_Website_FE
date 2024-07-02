@@ -95,7 +95,7 @@ export const Tokenomics = () => {
           className="z-[101] w-full xl:w-1/2 flex  items-end relative h-auto xl:h-full "
         >
           <img
-            src="./tokenomics.png"
+            src="/tokenomics.png"
             alt=""
             className="w-[600px] xl:w-full -translate-y-16 xl:translate-y-0 static xl:absolute  xl:bottom-[40px] left-0"
           />
@@ -105,14 +105,14 @@ export const Tokenomics = () => {
           className="z-[101] w-[400px] md:w-[900px] xl:w-1/2 relative pt-16 xl:pt-0  pb-32 flex items-end h-auto: xl:h-full "
         >
           <img
-            src="./total-girl.png"
+            src="/total-girl.png"
             alt=""
             className="translate-x-[0px] translate-y-[80px] xl:translate-y-0 h-full xl:h-[904px] md:translate-x-[-140px] xl:translate-x-0  w-full xl:w-full"
           />
         </div>
       </div>
       <img
-        src="./tokenomics-bg.png"
+        src="/tokenomics-bg.png"
         alt=""
         className="absolute top-0 left-0 z-[-1] w-full h-full  object-cover xl:object-center "
       />
@@ -122,7 +122,7 @@ export const Tokenomics = () => {
       >
         <img
           id="welcome"
-          src="./welcome.png"
+          src="/welcome.png"
           className="w-[850px] xl:w-[622px] "
         />
       </div>

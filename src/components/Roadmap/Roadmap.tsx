@@ -76,7 +76,7 @@ export const Roadmap = () => {
   return (
     <section id="roadmap" className="w-full relative h-[2421px]">
       <img
-        src="./roadmap-bg.png"
+        src="/roadmap-bg.png"
         alt=""
         className="absolute top-0 left-0 w-full h-full object-cover xl:object-fill z-[-1]"
       />
@@ -84,12 +84,12 @@ export const Roadmap = () => {
         ref={welcome}
         className="z-[101] absolute w-full xl:w-auto -top-20 md:-top-44 xl:top-0 left-1/2 -translate-x-1/2"
       >
-        <img src="./welcome.png" alt="" className="w-full xl:w-[576px] " />
+        <img src="/welcome.png" alt="" className="w-full xl:w-[576px] " />
       </div>
       <div className="z-[101]  absolute w-full h-[1656px]  xl:overflow-x-hidden top-1/2 -translate-y-1/2 left-0 ">
         <div className="w-full px-8  xl:px-0 h-full mt-10 xl:mt-0 relative">
           <img
-            src="./road-map-line.png"
+            src="/road-map-line.png"
             alt=""
             className="w-auto h-full hidden xl:inline-block "
           />
@@ -137,7 +137,7 @@ export const Roadmap = () => {
         className="absolute hidden xl:inline-block left-0 top-1/2
       -translate-y-1/2"
       >
-        <img src="./road-map-person.png" alt="" ref={person} width={"80%"} />
+        <img src="/road-map-person.png" alt="" ref={person} width={"80%"} />
       </div>
       <div
         ref={textContent}

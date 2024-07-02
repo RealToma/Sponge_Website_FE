@@ -39,7 +39,7 @@ export const GeneralOverview = () => {
   return (
     <section className="w-full xl:h-[1419px] relative ">
       <img
-        src="./general-overview.png"
+        src="/general-overview.png"
         alt=""
         className="w-full h-full object-cover xl:object-fill absolute top-0 left-0 z-[-1]"
       />
@@ -48,7 +48,7 @@ export const GeneralOverview = () => {
           ref={person}
           className=" z-[101] w-full translate-y-[580px] xl:translate-y-0  xl:w-1/2 h-full flex items-end pb-10"
         >
-          <img src="./general.png" alt="" />
+          <img src="/general.png" alt="" />
         </div>
         <div
           ref={card}

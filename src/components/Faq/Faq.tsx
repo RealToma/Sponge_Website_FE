@@ -39,14 +39,14 @@ export const Faq = () => {
   return (
     <section className="w-full relative min-h-screen xl:h-[1533px]">
       <img
-        src="./faq-bg.png"
+        src="/faq-bg.png"
         alt=""
         className="absolute h-full z-[-1] top-0 left-0 object-cover xl:object-fill"
       />
       <div className="w-full container px-5 pt-44 xl:pt-0  xl:px-0 flex items-end h-full flex-col-reverse xl:flex-row pb-[50px]">
         <img
           ref={person}
-          src="./faq-person.png"
+          src="/faq-person.png"
           alt=""
           className="z-[101]  w-[70%] xl:w-[30%] "
         />

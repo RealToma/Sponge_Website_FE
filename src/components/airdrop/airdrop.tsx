@@ -56,7 +56,7 @@ export const Airdrop = () => {
       <div className="w-full flex flex-col px-5 xl:px-0 xl:flex-row h-full container">
         <div className="z-[101] relative w-full pt-44 xl:pt-0 xl:w-1/2 h-full flex flex-col items-end justify-end pb-20 ">
           <div ref={shell1} className="w-full xl:w-[462px] relative">
-            <img src="./shell.png" alt="" />
+            <img src="/shell.png" alt="" />
             <div className="absolute pl-0 left-1/2 xl:left-[50%] -translate-x-1/2 md:pl-8 xl:pl-0 flex justify-center flex-col items-center  top-[40%] -translate-y-1/2">
               <h1 className=" text-[15px]  md:text-[24px]  xl:text-[32px] text-[#723D00] paytone font-normal xl:leading-[44.67px] text-center">
                 Airdrops
@@ -69,7 +69,7 @@ export const Airdrop = () => {
           </div>
 
           <div ref={shell2} className="w-full xl:w-[462px] relative">
-            <img src="./shell.png" alt="" />
+            <img src="/shell.png" alt="" />
             <div className="absolute pl-0 left-1/2 xl:left-[50%] -translate-x-1/2 md:pl-8 xl:pl-0 flex justify-center flex-col items-center  top-[40%] -translate-y-1/2">
               <h1 className=" text-[15px]  md:text-[24px]  xl:text-[32px] text-[#723D00] paytone font-normal xl:leading-[44.67px] text-center">
                 Presale
@@ -86,14 +86,14 @@ export const Airdrop = () => {
           className="z-[101] w-full relative  h-[600px] xl:h-full xl:w-1/2 justify-center flex items-end pb-8"
         >
           <img
-            src="./air-drop-img-1.png"
+            src="/air-drop-img-1.png"
             alt=""
             className=" w-full xl:w-[900px] absolute bottom-[50px] xl:bottom-[-35px]  xl:h-[800px] "
           />
         </div>
       </div>
       <img
-        src="./airdrop-bg.png"
+        src="/airdrop-bg.png"
         alt=""
         className="z-[-1] w-full h-full absolute top-0  object-cover xl:object-right-bottom"
       />

@@ -38,7 +38,7 @@ export const Team = () => {
   return (
     <section id='team' className='w-full h-screen md:h-[1471px] relative'>
       <img
-        src='./team-bg.png'
+        src='/team-bg.png'
         alt=''
         className='w-full h-full z-[-1] object-cover xl:object-fill'
       />
@@ -46,7 +46,7 @@ export const Team = () => {
         ref={person}
         className='z-[101] absolute w-[450px] xl:w-[800px] z-50 top-[-210px] md:top-[-200px] xl:top-[-300px] left-[30%] xl:left-[43%] -translate-x-1/2 '
       >
-        <img src='./team-img-1.png' alt='' className='w-full h-full' />
+        <img src='/team-img-1.png' alt='' className='w-full h-full' />
       </div>
       <div
         ref={team}
@@ -55,7 +55,7 @@ export const Team = () => {
         <h1 className=' text-[28px] xl:text-7xl font-normal xl:leading-[100px] text-left text-white luckiest'>
           Team
         </h1>
-        <img src='./team.png' alt='' className='w-full xl:w-[901px]' />
+        <img src='/team.png' alt='' className='w-full xl:w-[901px]' />
       </div>
       <div
         className={`w-[300%] left-[-150px] translate-x-[-20%] h-[79px] ${styles.blur} absolute -bottom-10 `}

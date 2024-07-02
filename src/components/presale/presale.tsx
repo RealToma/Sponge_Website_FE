@@ -43,7 +43,7 @@ export const Presale = () => {
           ref={person}
           className='z-[101] w-full xl:w-[40%] h-full flex xl:pb-0 pb-36 items-center justify-start'
         >
-          <img className='' src='./presale-person-1.png' alt='' />
+          <img src='/presale-person-1.png' alt='' />
         </div>
         <div ref={card} className='z-[101]  w-full xl:w-[60%] h-full flex items-center'>
           <div
@@ -67,7 +67,7 @@ export const Presale = () => {
         </div>
       </div>
       <img
-        src='./presale.png'
+        src='/presale.png'
         alt=''
         className='absolute top-0 left-0 w-full h-full z-[-1] object-cover xl:object-fill'
       />
@@ -75,7 +75,7 @@ export const Presale = () => {
         className={`${styles.blur} w-[300%] left-[-150px] translate-x-[-20%] z-10 h-[70px] xl:h-[110px] absolute -bottom-10 `}
       ></div>
       <img
-        src='./presale-line.png'
+        src='/presale-line.png'
         alt=''
         className='absolute -bottom-11 z-10'
       />

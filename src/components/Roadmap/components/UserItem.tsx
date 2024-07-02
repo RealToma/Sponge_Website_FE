@@ -37,7 +37,7 @@ export const UserItem = ({
       <div className='flex items-start'>
         <img
           className=' w-[80px] h-[80px] xl:w-[158px] xl:h-[158px]'
-          src='./avatar.png'
+          src='/avatar.png'
           alt=''
         />
         <div className='w-[184px] h-full flex flex-col justify-start'>
@@ -52,7 +52,7 @@ export const UserItem = ({
       </div>
       <div className='flex  pt-7 flex-col '>
         <div className='flex items-center gap-x-6'>
-          <img src='./avatar.png' className='w-[39px] h-[39px]' />
+          <img src='/avatar.png' className='w-[39px] h-[39px]' />
           <p className='text-white paytone text-xl not-italic font-normal leading-[normal]'>
             {userName}
           </p>
