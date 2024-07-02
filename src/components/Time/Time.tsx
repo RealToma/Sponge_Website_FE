@@ -139,7 +139,7 @@ export const Time = () => {
               </div>
             </div>
 
-            <div className="w-[60%] m-auto mt-[28px] mb-[29px] h-[12px] bg-[#D9D9D9] overflow-hidden rounded-[20px] relative ">
+            <div className="w-[100%] m-auto mt-[28px] mb-[29px] h-[12px] bg-[#D9D9D9] overflow-hidden rounded-[20px] relative ">
               <div className="w-1/2 h-full bg-[#B89664] rounded-[20px]" />
             </div>
 
@@ -171,12 +171,12 @@ export const Time = () => {
             </div>
 
             <div className="w-full flex justify-center pt-[20px] border-t border-[#263D6B]">
-              <div className="py-[18px] w-full flex items-center  justify-between px-[27px] rounded-full bg-[#B65700]">
-                <p className="text-[#F9EFCB] paytone text-justify text-[14px] xl:text-base not-italic font-normal leading-[normal]">
+              <div className="py-[10px] xl:py-[16px] w-full flex items-center  justify-between xl:px-[20px] px-[12px] rounded-full bg-[#B65700]">
+                <p className="text-[#F9EFCB] paytone text-justify text-[11px] md:text-[12px] xl:text-[14px] xl:text-base not-italic font-normal leading-[normal]">
                   Send SOL to : {shortAddress(addresPresaleSolana)}
                 </p>
                 <button
-                  className="w-[130px] h-[40px] rounded-[20px] text-[#231F20] text-xs not-italic font-bold leading-[normal] bg-[#CFA53C]"
+                  className="w-[65px] md:w-[80px] cursor-none xl:w-[100px] h-[40px] rounded-[20px] text-[#231F20] text-xs not-italic font-bold leading-[normal] bg-[#CFA53C] transition duration-300 hover:bg-white"
                   onClick={() => {
                     handleCopyAddress();
                   }}

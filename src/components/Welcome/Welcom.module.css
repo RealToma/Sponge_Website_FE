@@ -1,17 +1,12 @@
-.text_shadow {
-  filter: blur(100.3px);
-  background: rgb(0, 0, 0);
+.hero_shadow {
+  text-shadow: 1px 6px 6px rgba(0, 0, 0, 0.6);
 }
 
 .blur {
-  filter: blur(15.6px);
-  background: linear-gradient(180deg, #e8cb96 50%, #2ac1dd 72.46%);
+  background: linear-gradient(180deg, #e8cb96 50%, #15e7de 72.46%);
+  filter: blur(20.299999237060547px);
 }
 
-.text_shadow_subTitle {
-  text-shadow: 0px 4px 4px #000;
-}
-
-.title {
-  text-shadow: 0px 4px 4px #000;
+.title_shadow {
+  text-shadow: 0px 4px 5px #000;
 }

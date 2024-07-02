@@ -95,10 +95,12 @@ body {
 
 #load div {
   position: absolute;
-  width: 20px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   opacity: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Paytone One", sans-serif;
+  font-size: 40px;
+
   animation: move 2s linear infinite;
   -o-animation: move 2s linear infinite;
   -moz-animation: move 2s linear infinite;
@@ -107,7 +109,7 @@ body {
   -o-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
-  color: #35c4f0;
+  color: #f3f248;
 }
 
 #load div:nth-child(2) {

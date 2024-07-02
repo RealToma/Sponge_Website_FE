@@ -1,33 +1,33 @@
-import { Route, Routes, useLocation } from 'react-router-dom'
-import { CustomCursor } from './common'
-import { useEffect, useState } from 'react'
-import { Loader } from './common/Loader/Loader'
-import { Home, Presale } from './pages'
+import { Route, Routes, useLocation } from "react-router-dom";
+import { CustomCursor } from "./common";
+import { useEffect, useState } from "react";
+import { Loader } from "./common/Loader/Loader";
+import { Home, Presale } from "./pages";
 
 export const App = () => {
-  const [loading, setLoading] = useState(false)
-  const { pathname } = useLocation()
+  const [loading, setLoading] = useState(false);
+  const { pathname } = useLocation();
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [pathname])
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   useEffect(() => {
-    setLoading(true)
+    setLoading(true);
     setTimeout(() => {
-      setLoading(false)
-    }, 3000)
-  }, [])
+      setLoading(false);
+    }, 5000);
+  }, []);
 
   return (
     <>
       {loading ? <Loader /> : null}
 
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/presale' element={<Presale />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/presale" element={<Presale />} />
       </Routes>
 
       <CustomCursor />
     </>
-  )
-}
+  );
+};

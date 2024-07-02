@@ -11,6 +11,10 @@ export const Header = () => {
   const PrssaleHandle = () => {
     setOpen(false);
     navigate("/presale");
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
 
   useEffect(() => {
@@ -27,7 +31,15 @@ export const Header = () => {
     >
       <div className="w-full h-full relative flex items-center ">
         <div className="container px-5 xl:px-0 justify-between flex items-center w-full h-full">
-          <Link to="/">
+          <Link
+            to="/"
+            onClick={() => {
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+              });
+            }}
+          >
             <img src="./logo.svg" alt="logo" className="w-[73px] h-[73px]" />
           </Link>
           <ul

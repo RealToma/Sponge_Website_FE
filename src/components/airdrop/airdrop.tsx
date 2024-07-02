@@ -61,7 +61,7 @@ export const Airdrop = () => {
               <h1 className=' text-[15px]  md:text-[24px]  xl:text-[32px] text-[#723D00] paytone font-normal xl:leading-[44.67px] text-center'>
                 Airdrops
               </h1>
-              <p className='text-[13px] xl:text-sm w-[100%] text-[#263D6B] paytone font-normal xl:leading-[19.54px] text-center'>
+              <p className='text-[11px] xl:text-sm w-[100%] text-[#263D6B] paytone font-normal xl:leading-[19.54px] text-center'>
                 Get free coins by participating in community activities, holding
                 a certain amount of our memecoin, or completing simple tasks.
               </p>
@@ -74,7 +74,7 @@ export const Airdrop = () => {
               <h1 className=' text-[15px]  md:text-[24px]  xl:text-[32px] text-[#723D00] paytone font-normal xl:leading-[44.67px] text-center'>
                 Presale
               </h1>
-              <p className='text-[13px] xl:text-sm m-auto w-[100%] text-[#263D6B] paytone font-normal xl:leading-[19.54px] text-center'>
+              <p className='text-[11px] xl:text-sm m-auto w-[100%] text-[#263D6B] paytone font-normal xl:leading-[19.54px] text-center'>
                 Be an early bird! Buy coins at a discounted rate before they hit
                 the market.
               </p>
@@ -88,7 +88,7 @@ export const Airdrop = () => {
           <img
             src='./air-drop-img-1.png'
             alt=''
-            className=' w-full xl:w-[900px] absolute bottom-0 xl:bottom-[-35px]  xl:h-[800px] '
+            className=' w-full xl:w-[900px] absolute bottom-[50px] xl:bottom-[-35px]  xl:h-[800px] '
           />
         </div>
       </div>

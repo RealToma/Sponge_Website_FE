@@ -1,33 +1,30 @@
-import styles from './Welcom.module.css'
+import styles from "./Welcom.module.css";
 
 export const Welcome = () => {
   return (
-    <section
-      id='home'
-      className='w-full relative flex items-center justify-center min-h-screen'
-    >
-      <img
-        src='./pre-welcome.png'
-        alt=''
-        className='z-[-2] absolute w-full h-full object-cover xl:object-fill top-0 left-0'
-      />
-      <div className='relative flex flex-col  items-center'>
-        <h1
-          className={`text-white ${styles.title} text-center text-[35px] xl:text-[75px] not-italic font-normal leading-[normal] luckiest`}
-        >
-          Welcome to the world <br /> of $Sponge
-        </h1>
-        <p
-          className={` ${styles.text_shadow_subTitle} mt-[14px] text-white w-[70%] luckiest text-center text-[18px] xl:text-[35px] not-italic font-normal xl:leading-10`}
-        >
-          where the financial savvy of Wall Street meets the whimsical charm of
-          Bikini Bottom. Dive into an ocean of opportunities with Spongebob and
-          his friends as your guides.
-        </p>
+    <section id="home" className={`min-h-screen xl:h-[1080px]  relative `}>
+      <div className="w-full container flex justify-center pt-[300px] px-5 xl:px-0 h-full">
+        <div className="w-full flex flex-col items-center">
+          <h1
+            className={` ${styles.title_shadow} text-white w-[90%] md:w-[75%] xl:w-[60%] luckiest text-center text-[50px] md:text-[60px] xl:text-[75px] not-italic font-normal leading-[111.425%]`}
+          >
+            Welcome to the world of $Sponge
+          </h1>
+          <p className="text-white text-center luckiest mt-[13px] w-[90%] text-[18px] xl:text-[35px] not-italic font-normal leading-[111.425%]">
+            where the financial savvy of Wall Street meets the whimsical charm
+            of Bikini Bottom. Dive into an ocean of opportunities with Spongebob
+            and his friends as your guides.
+          </p>
+        </div>
       </div>
       <div
-        className={`${styles.blur} w-full h-[100px] xl:h-[158px] absolute -bottom-10 `}
+        className={`${styles.blur} z-[99] w-[150%] translate-x-[-20%] h-[50px] xl:h-[158px] absolute -bottom-7 xl:-bottom-14 `}
       ></div>
+      <img
+        src="./hero-bg.png"
+        className="absolute  top-0  h-full z-[-1] object-cover xl:object-fill"
+        alt=""
+      />
     </section>
-  )
-}
+  );
+};

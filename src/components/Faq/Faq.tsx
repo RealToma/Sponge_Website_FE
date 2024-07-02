@@ -48,7 +48,7 @@ export const Faq = () => {
           ref={person}
           src="./faq-img.png"
           alt=""
-          className=" w-full xl:w-[30%]"
+          className=" w-[70%] xl:w-[30%] "
         />
         <div
           ref={card}

@@ -15,7 +15,7 @@ export const ReasonToHave = () => {
           crypto space, treating our community with fairness and transparency.
         </p>
         <div className="grid gap-x-[49px] mt-[100px] gap-y-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
-          <div className="hover:shadow-[0px_11px_8.7px_9px_rgba(255,214,0,0.40)] px-[44px] py-[43px] rounded-[19px] border-4 border-solid border-[#FFC700] transition duration-300 transform hover:scale-105">
+          <div className="hover:shadow-[0px_11px_8.7px_9px_rgba(255,214,0,0.40)] px-[44px] py-[43px] rounded-[19px] border-4 border-solid border-[#FFC700] bg-[#FFC70050] transition duration-300 transform hover:scale-105 ">
             <h1 className="text-[#F3D583] mb-[27px] luckiest text-center text-3xl not-italic font-normal leading-[normal]">
               Financial Fitness:
             </h1>
@@ -26,20 +26,20 @@ export const ReasonToHave = () => {
             </p>
           </div>
 
-          <div className=" px-[44px] py-[43px] hover:shadow-[0px_11px_8.7px_9px_rgba(220,3,4,0.30)] rounded-[19px] border-4 border-solid border-[#A33737] transition duration-300 transform hover:scale-105">
+          <div className=" px-[44px] py-[43px] hover:shadow-[0px_11px_8.7px_9px_rgba(220,3,4,0.30)] rounded-[19px] border-4 border-solid border-[#A33737]  bg-[#A3373750] transition duration-300 transform hover:scale-105">
             <h1 className="text-[#F3D583] mb-[27px] luckiest text-center text-3xl not-italic font-normal leading-[normal]">
               Peace of Mind:
             </h1>
             <p className="text-white m-auto text-center text-xl paytone not-italic font-normal leading-[35px]">
-              Navigate the choppy waters of crypto witth the ease of Spongebob
-              $sponge’s straigtforward mrchanics ensure a stress-free
+              Navigate the choppy waters of crypto with the ease of Spongebob
+              $sponge’s straight forward mechanics ensure a stress-free
               investment.
             </p>
           </div>
 
-          <div className=" px-[44px] py-[43px] hover:shadow-[0px_11px_8.7px_9px_rgba(7,142,10,0.40)] rounded-[19px] border-4 border-solid border-[#02AE3D] transition duration-300 transform hover:scale-105">
+          <div className=" px-[44px] py-[43px] hover:shadow-[0px_11px_8.7px_9px_rgba(83,59,189,0.40)] rounded-[19px] border-4 border-solid border-[#533bbd] bg-[#533bbd50] transition duration-300 transform hover:scale-105">
             <h1 className="text-[#F3D583] mb-[27px] luckiest text-center text-3xl not-italic font-normal leading-[normal]">
-              Community Suppor
+              Community Support
             </h1>
             <p className="text-white m-auto text-center text-xl paytone not-italic font-normal leading-[35px]">
               Just as Bikini Bottom residents support each other, the $Sponge
@@ -47,7 +47,7 @@ export const ReasonToHave = () => {
             </p>
           </div>
 
-          <div className=" px-[44px] py-[43px] hover:shadow-[0px_11px_8.7px_9px_rgba(7,142,10,0.40)] rounded-[19px] border-4 border-solid border-[#02AE3D] transition duration-300 transform hover:scale-105">
+          <div className=" px-[44px] py-[43px] hover:shadow-[0px_11px_8.7px_9px_rgba(7,142,10,0.40)] rounded-[19px] border-4 border-solid border-[#02AE3D] bg-[#02AE3D50] transition duration-300 transform hover:scale-105">
             <h1 className="text-[#F3D583] mb-[27px] luckiest text-center text-3xl not-italic font-normal leading-[normal]">
               Nostalgic Value:
             </h1>
