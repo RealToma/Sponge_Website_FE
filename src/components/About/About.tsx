@@ -43,7 +43,7 @@ export const About = () => {
     <section id="about" className="w-full relative min-h-screen xl:h-[1017px]">
       <div className="w-full relative h-full">
         <img
-          src="./about-bg.jpg"
+          src="/about-bg.jpg"
           className="absolute top-0 z-[-1] left-0 w-full h-full object-cover xl:object-fill"
         />
         <div className="w-full flex-col xl:flex-row flex h-full pt-0 xl:pt-32 pb-0 xl:pb-96 items-center gap-x-[20px] px-5 xl:px-0  container">
