@@ -1,13 +1,26 @@
 export const Loader = () => {
   return (
-    <div className="w-full bg-black h-screen flex justify-center items-center fixed top-0 left-0 z-[100000]">
-      <div id="load">
-        <div>S</div>
-        <div>P</div>
-        <div>O</div>
-        <div>N</div>
-        <div>G</div>
-        <div>E</div>
+    <div className="content">
+      <div className="group_text">
+        <p className="wave_text text01">SPONGE OF WALL STREET</p>
+        <p className="wave_text text02">SPONGE OF WALL STREET</p>
+      </div>
+      <div className="bubbles">
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
       </div>
     </div>
   );
