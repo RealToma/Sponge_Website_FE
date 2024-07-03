@@ -7,7 +7,7 @@ export const Hero = () => {
           <h1
             className={` ${styles.title_shadow} text-white w-[90%] md:w-[75%] xl:w-[60%] luckiest text-center text-[50px] md:text-[60px] xl:text-[75px] not-italic font-normal leading-[111.425%]`}
           >
-            Welcome to the world of $Sponge
+            Welcome to the world of $SOW
           </h1>
           <p className="text-white text-center luckiest mt-[13px] w-[90%] text-[18px] xl:text-[35px] not-italic font-normal leading-[111.425%]">
             where the financial savvy of Wall Street meets the whimsical charm
