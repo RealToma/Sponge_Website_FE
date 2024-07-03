@@ -103,7 +103,7 @@ export const About = () => {
                 )} */}
                 <video
                   src="/video/sponge_adver.mp4"
-                  muted
+                  // muted
                   autoPlay
                   loop
                   controls

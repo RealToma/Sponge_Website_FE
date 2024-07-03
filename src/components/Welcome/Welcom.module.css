@@ -4,7 +4,11 @@
 
 .blur {
   background: linear-gradient(180deg, #e8cb96 50%, #15e7de 72.46%);
-  filter: blur(20.299999237060547px);
+  filter: blur(20px);
+
+  @media (max-width: 900px) {
+    filter: blur(12px);
+  }
 }
 
 .title_shadow {
