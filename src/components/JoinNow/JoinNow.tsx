@@ -57,10 +57,10 @@ export const JoinNow = () => {
           </h1>
           <p className="w-[70%] mt-0 xl:mt-3 text-[8px] xl:text-xl font-normal paytone xl:leading-[35px] text-center text-[#263D6B]">
             The Tale of Sponge of Wallstreet on the Solana Blockchain
-            (Continuation) After Sponge creating, Sponge of Wallstreet ($SWS),
+            (Continuation) After Sponge creating, Sponge of Wallstreet ($SOW),
             Sponge's life took an exciting turn. The coin's popularity soared,
             and Sponge became famous underwater. Everyone on Wall Street and
-            beyond wanted a piece of $SWS. With $SWS's success, Sponge's
+            beyond wanted a piece of $SOW. With $SOW's success, Sponge's
             ambitions grew. He wanted to make his mark not only underwater but
             also on the real Wall Street.
           </p>
@@ -76,7 +76,7 @@ export const JoinNow = () => {
         className=" absolute top-0 left-0 w-full z-[-1] h-full"
       />
       <div
-        className={` absolute w-[150%] translate-x-[-20%] -bottom-20 z-10 ${styles.blur}`}
+        className={`${styles.blur} w-[300%] left-[-150px] translate-x-[-20%] h-[100px] xl:h-[150px] absolute -bottom-7 xl:-bottom-14`}
       ></div>
     </section>
   );

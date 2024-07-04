@@ -15,11 +15,11 @@ export const Tokenomics = () => {
   useEffect(() => {
     gsap.fromTo(
       welcome.current,
-      { opacity: 0, scale: 0.2 },
+      { opacity: 0, scale: 0.3 },
       {
         opacity: 1,
         scale: 1,
-        duration: 1.5,
+        duration: 2,
         scrollTrigger: {
           trigger: welcome.current,
         },
@@ -28,7 +28,7 @@ export const Tokenomics = () => {
 
     gsap.fromTo(
       textContent.current,
-      { opacity: 0, y: 50 },
+      { opacity: 0, y: 150 },
       {
         opacity: 1,
         y: 0,
@@ -45,7 +45,7 @@ export const Tokenomics = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 1.5,
+        duration: 2,
         scrollTrigger: {
           trigger: tokenomics.current,
         },
@@ -54,11 +54,11 @@ export const Tokenomics = () => {
 
     gsap.fromTo(
       tokenGirl.current,
-      { opacity: 0, x: 50 },
+      { opacity: 0, x: 250 },
       {
         opacity: 1,
         x: 0,
-        duration: 1.5,
+        duration: 2,
         scrollTrigger: {
           trigger: tokenGirl.current,
         },
@@ -74,9 +74,9 @@ export const Tokenomics = () => {
       <div className=" z-[101] absolute  -translate-x-1/2 w-full left-1/2 top-0 xl:-top-32">
         <div
           ref={textContent}
-          className="flex flex-col  pt-[60px] xl:pt-[125px] items-center container px-5 xl:px-0"
+          className="flex flex-col  pt-[60px] xl:pt-[150px] items-center container px-5 xl:px-0"
         >
-          <h1 className="text-[38px] xl:text-7xl text-white luckiest font-normal leading-[72px] text-center">
+          <h1 className="text-[38px] xl:text-[70px] text-white luckiest font-normal leading-[72px] text-center">
             Total Supply
           </h1>
           <p className="text-[10px] xl:text-[26px] w-full xl:w-[75%] paytone text-[#F3D583] font-normal xl:leading-[36.3px] text-center">
@@ -107,7 +107,7 @@ export const Tokenomics = () => {
           <img
             src="/total-girl.png"
             alt=""
-            className="translate-x-[0px] translate-y-[80px] xl:translate-y-0 h-full xl:h-[904px] md:translate-x-[-140px] xl:translate-x-0  w-full xl:w-full"
+            className="translate-x-[0px] translate-y-[80px] xl:translate-y-0 h-full xl:h-[800px] md:translate-x-[-140px] xl:translate-x-0  w-full xl:w-full"
           />
         </div>
       </div>
@@ -118,16 +118,16 @@ export const Tokenomics = () => {
       />
       <div
         ref={welcome}
-        className="z-[101] absolute w-full md:w-auto top-[-50px] xl:-top-[280px] left-1/2 -translate-x-1/2 "
+        className="z-[101] absolute w-full md:w-auto top-[-50px] xl:-top-[220px] left-1/2 -translate-x-1/2 "
       >
         <img
           id="welcome"
-          src="/welcome.png"
-          className="w-[850px] xl:w-[622px] "
+          src="/welcome_treedome.png"
+          className="w-[500px] xl:w-[622px] "
         />
       </div>
       <div
-        className={`${styles.blur} absolute w-[300%] left-[-150px] translate-x-[-20%] -bottom-10 h-[70px]  xl:h-[110px] `}
+        className={`${styles.blur} w-[300%] left-[-150px] translate-x-[-20%] h-[100px] xl:h-[150px] absolute -bottom-7 xl:-bottom-14`}
       ></div>
     </section>
   );

@@ -15,9 +15,9 @@ export const Presale = () => {
       <Welcome />
       <About />
       <Tokenomics />
+      <JoinNow />
       <PresaleAbout />
       <Time />
-      <JoinNow />
       <ReasonToHave />
     </Layout>
   );

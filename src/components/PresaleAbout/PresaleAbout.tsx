@@ -111,7 +111,7 @@ export const PresaleAbout = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} w-[300%] left-[-150px]  translate-x-[-25%] h-[70px] xl:h-[158px] absolute -bottom-12 `}
+        className={`${styles.blur} w-[300%] left-[-150px] translate-x-[-20%] h-[100px] xl:h-[150px] absolute -bottom-7 xl:-bottom-14`}
       ></div>
     </section>
   )

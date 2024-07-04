@@ -147,8 +147,8 @@ export const Roadmap = () => {
           OUR ROAD MAP
         </h1>
         <p className=" text-[14px] xl:text-lg w-full xl:w-[60%] paytone text-[#F3D583] font-normal xl:leading-[30px] text-left">
-          Patrick, Mr. Krabs, and even Squidward invested in $SWS, each dreaming
-          of riches. As word spread, $SWS became popular across the ocean,
+          Patrick, Mr. Krabs, and even Squidward invested in $SOW, each dreaming
+          of riches. As word spread, $SOW became popular across the ocean,
           bringing the whimsical world of Bikini Bottom to the high-stakes arena
           of digital finance, transforming SpongeBob into the Sponge of
           Wallstreet.

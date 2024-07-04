@@ -18,7 +18,7 @@ export const About = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 1.5,
+        duration: 2,
         scrollTrigger: {
           trigger: container.current,
         },
@@ -27,7 +27,7 @@ export const About = () => {
 
     gsap.fromTo(
       aboutVideo.current,
-      { opacity: 0, y: 50 },
+      { opacity: 0, y: 200 },
       {
         opacity: 1,
         y: 0,
@@ -50,29 +50,32 @@ export const About = () => {
           <div className=" z-[101] w-full py-8 xl:w-[60%]">
             <div
               ref={container}
-              className={`${styles.card}  z-[101] h-[350px] xl:h-[500px] xl:min-h-[698px] xl:pt-[162px] xl:pb-[143px] flex px-0 xl:px-[142px]  flex-col items-center justify-center`}
+              className={`${styles.card}  z-[101] h-[430px] xl:h-[500px] xl:min-h-[698px] xl:pt-[162px] xl:pb-[143px] flex px-0 xl:px-[142px]  flex-col items-center justify-center`}
             >
-              <h1 className=" text-[15px] lg:text-[40px] text-[#AF6D27] font-normal xl:leading-10 text-center luckiest">
+              <h1 className=" text-[18px] sm:text-[35px] md:text-[35px] lg:text-[40px] text-[#AF6D27] font-normal xl:leading-10 text-center luckiest">
                 About Sponge
               </h1>
-              <p className=" w-[60%] md:w-[45%] xl:w-auto leading-[8px] md:leading-3  text-[7px] md:text-[10px] xl:text-[14px] mt-1 xl:mt-[10px] mb-[5px] text-[#263D6B]  font-normal xl:leading-[28px] text-center paytone">
+              <p className=" w-[60%] md:w-[40%]  xl:w-auto leading-[8px] md:leading-3  text-[9px]  md:text-[12px] xl:text-[14px] mt-[5px] xl:mt-[10px] mb-[5px] text-[#263D6B]  font-normal xl:leading-[28px] text-center paytone">
                 The Tale of Sponge of Wallstreet on the Solana Blockchain
                 (Continuation) After Sponge creating, Sponge of Wallstreet
-                ($SWS), Sponge's life took an exciting turn. The coin's
+                ($SOW), Sponge's life took an exciting turn. The coin's
                 popularity soared, and Sponge became famous underwater. Everyone
-                on Wall Street and beyond wanted a piece of $SWS. With $SWS's
+                on Wall Street and beyond wanted a piece of $SOW. With $SOW's
                 success, Sponge's ambitions grew. He wanted to make his mark not
                 only underwater but also on the real Wall Street.{" "}
               </p>
               <Button
-                className="montserrat transition-all duration-500 text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] hover:!text-[#070707] hover:!bg-white !text-white"
+                className="montserrat transition-all duration-500 text-[9px] md:!text-[10px]  xl:!text-xl !px-4 !pt-[1px] !pb-[1px] xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] hover:!text-[#070707] hover:!bg-white !text-white items-center justify-center"
                 borderColor="#F3D583"
               >
                 LEARN MORE
               </Button>
             </div>
           </div>
-          <div ref={aboutVideo} className="w-full pb-40 xl:pb-0 xl:w-[30%] z-[101]">
+          <div
+            ref={aboutVideo}
+            className="w-full pb-40 xl:pb-0 xl:w-[30%] z-[101]"
+          >
             <div className="py-[20px] bg-[#F3D583] px-[20px] xl:py-[20px] rounded-[27px]">
               <div className="w-full relative">
                 {/* {isPlay ? (
@@ -110,7 +113,7 @@ export const About = () => {
                   className="!w-full h-[450px] object-cover rounded-[12px]"
                 ></video>
               </div>
-              <h1 className="text-[20px] xl:text-[20px] luckiest text-[#AF6D27] my-3 xl:my-[10px] font-normal xl:leading-0 text-center">
+              <h1 className="text-[18px] xl:text-[20px] luckiest text-[#AF6D27] my-2 xl:my-[10px] font-normal xl:leading-0 text-center">
                 The Wolf of Wallstreet PATRICK one
               </h1>
             </div>
@@ -118,7 +121,7 @@ export const About = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} h-[70px] w-[300%] left-[-150px] translate-x-[-20%] xl:h-[510px] absolute bottom-[-44px] xl:-bottom-[280px] `}
+        className={`${styles.blur} w-[300%] left-[-150px] translate-x-[-20%] h-[100px] xl:h-[150px] absolute -bottom-7 xl:-bottom-14 `}
       ></div>
     </section>
   );

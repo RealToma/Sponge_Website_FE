@@ -73,7 +73,7 @@ const VideoBackLoop = styled(Box)`
   position: fixed;
   width: 100%;
   height: 100vh;
-  opacity: 0.5;
+  opacity: 0.6;
   /* filter: brightness(1); */
 
   > video {
