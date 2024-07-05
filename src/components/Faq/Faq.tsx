@@ -59,29 +59,30 @@ export const Faq = () => {
           </h1>
           <div className="flex flex-col gap-y-6">
             <Accordion
-              title="1.What services  offer?"
-              content="1.what  sponge is different than others?"
+              title="1. What is a memecoin?"
+              content="A cryptocurrency inspired by internet memes and pop culture. It can have real-world value and uses."
             />
 
             <Accordion
-              title="2.Why sponge is different than others?"
-              content="2.what  sponge is different than others?"
+              title="2. How do I buy memecoins?"
+              content="You can buy our memecoins on popular cryptocurrency exchanges or during our presale."
             />
 
             <Accordion
-              title="3.What is your working process?"
-              content="3.what  sponge is different than others?"
+              title="3. Are memecoins safe?"
+              content="Like all investments, memecoins come with risks. We recommend doing your research and investing wisely.
+Hopefully, that covers your questions. If not, well, feel free to ask more."
             />
 
-            <Accordion
+            {/* <Accordion
               title="3.How to buy sponge?"
               content="3.what  sponge is different than others?"
-            />
+            /> */}
           </div>
         </div>
       </div>
       <div
-        className={` ${styles.blur} w-[300%] left-[-150px]  absolute -bottom-5 h-[47px]`}
+        className={`${styles.blur} w-[300%] left-[-150px] translate-x-[-20%] h-[100px] xl:h-[150px] absolute -bottom-7 xl:-bottom-14`}
       ></div>
     </section>
   );

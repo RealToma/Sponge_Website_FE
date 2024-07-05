@@ -30,7 +30,7 @@ export const Contact = () => {
         </div>
         <div className="w-full h-[1px] footer_line" />
         <p className="text-center text-xs xl:text-base text-[#8C8B8B] font-normal leading-6  mt-[27px] paytone">
-          &copy; 2024 ALL RIGHT RESERVED sponge.io
+          &copy; 2024 All rights reserved by $SPONGE OF WALL STREET.
         </p>
       </div>
     </section>

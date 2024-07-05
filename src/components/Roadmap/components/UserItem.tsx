@@ -61,7 +61,7 @@ export const UserItem = ({
           {lists.map((list: string, index: number) => (
             <p
               key={index}
-              className='flex w-full xl:w-[60%] gap-x-[13px] text-white paytone items-center text-[16px] font-normal leading-[27.92px] text-left '
+              className='flex w-full xl:w-[100%] gap-x-[13px] text-white paytone items-center text-[16px] font-normal leading-[27.92px] text-left '
             >
               {list}
             </p>

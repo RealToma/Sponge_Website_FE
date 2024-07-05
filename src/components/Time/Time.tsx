@@ -59,14 +59,14 @@ export const Time = () => {
         className="absolute top-0 z-[-1] left-0 object-cover xl:object-fill w-full h-full"
       />
       <div className="w-full pb-10 px-5 xl:px-0 container flex xl:flex-row flex-col h-full">
-        <div ref={person} className="z-[101] w-full xl:w-1/2 h-full relative">
+        <div ref={person} className="z-[101] w-full xl:w-1/2 h-full relative mt-[150px] xl:mt-[50px]">
           <img
             src="/presale-person.png"
             alt=""
-            className=" static xl:absolute -bottom-0 h-[400px] xl:h-[600px] w-[400px] left-40"
+            className=" static xl:absolute -bottom-0  w-[400px] left-40"
           />
         </div>
-        <div className="z-[101] w-full xl:w-1/2 h-full flex items-center justify-center">
+        <div className="z-[101] w-full xl:w-1/2 h-full flex items-center justify-center ">
           <div
             ref={time}
             className="bg-[#F9D68F] w-full px-[20px] xl:px-[97px] flex flex-col rounded-[40px] pb-[24px] pt-[42px]"
@@ -189,7 +189,7 @@ export const Time = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} w-[300%] left-[-150px]  translate-x-[-20%] h-[70px] xl:h-[113px] absolute -bottom-10 `}
+        className={`${styles.blur} w-[300%] left-[-150px] translate-x-[-20%] h-[100px] xl:h-[150px] absolute -bottom-7 xl:-bottom-14`}
       ></div>
     </section>
   );

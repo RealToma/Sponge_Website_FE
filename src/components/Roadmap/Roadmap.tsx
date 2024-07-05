@@ -5,27 +5,48 @@ import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
+// old
+// const PHASE1 = [
+//   "Presale Launch: Early birds catch the best prices on $Sponge.",
+// ];
 
-const PHASE1 = [
-  "Presale Launch: Early birds catch the best prices on $Sponge.",
-];
+// const PHASE2 = ["DEX Launch: Dive into decentralized exchanges."];
 
-const PHASE2 = ["DEX Launch: Dive into decentralized exchanges."];
+// const PHASE3 = [
+//   "Farming & Burning: Enhance your holdings with our fun farming and burning strategies.",
+// ];
+
+// const PHASE4 = [
+//   "CEX Listings + NFTs + Game: Join the hustle with centralized exchange listings, unique NFTs, and a Sponge-themed game.",
+// ];
+
+// const PHASE5 = [
+//   "Top-Tier Listings: Elevate $Sponge to new heights with tier-1 exchange listings.",
+// ];
+
+// const PHASE6 = [
+//   "Rewards and Raffles: Enjoy exclusive rewards and raffles for loyal $Sponge holders.",
+// ];
+
+// new
+const PHASE1 = ["Presale Launch: Early access for investors."];
+
+const PHASE2 = ["DEX Launch: Public launch on decentralized exchanges."];
 
 const PHASE3 = [
-  "Farming & Burning: Enhance your holdings with our fun farming and burning strategies.",
+  "Farming & Burning: Enhance your holdings with fun strategies.",
 ];
 
 const PHASE4 = [
-  "CEX Listings + NFTs + Game: Join the hustle with centralized exchange listings, unique NFTs, and a Sponge-themed game.",
+  "CEX Listings: Join the hustle with centralized exchange listings.",
 ];
 
 const PHASE5 = [
-  "Top-Tier Listings: Elevate $Sponge to new heights with tier-1 exchange listings.",
+  "Top-Tier Listings: Elevate $SOW with tier-1 exchange listings.",
 ];
 
 const PHASE6 = [
-  "Rewards and Raffles: Enjoy exclusive rewards and raffles for loyal $Sponge holders.",
+  "Rewards and Raffles: Exclusive rewards for loyal $SOW holders.",
 ];
 
 export const Roadmap = () => {
@@ -150,8 +171,8 @@ export const Roadmap = () => {
           Patrick, Mr. Krabs, and even Squidward invested in $SOW, each dreaming
           of riches. As word spread, $SOW became popular across the ocean,
           bringing the whimsical world of Bikini Bottom to the high-stakes arena
-          of digital finance, transforming SpongeBob into the Sponge of
-          Wallstreet.
+          of digital finance, transforming SpongeBob into the Sponge of Wall
+          Street.
         </p>
       </div>
       <div

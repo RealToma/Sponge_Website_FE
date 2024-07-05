@@ -1,20 +1,20 @@
-import { Discord, Instagram, Telegram, Twitter } from "../icons";
+import { Facebook, Instagram, Telegram, Twitter } from "../icons";
 
 export const SOCIALMEDIAS = [
   {
-    icon: <Twitter className="w-[15px] h-[15px]" />,
-    link: "https://twitter.com/",
-  },
-  {
-    icon: <Telegram className="w-[15px] h-[15px]" />,
-    link: "https://t.me/",
+    icon: <Facebook className="w-[15px] h-[15px]" />,
+    link: "https://www.facebook.com/share/r6j6hcWjCiLuq6Rw/",
   },
   {
     icon: <Instagram className="w-[15px] h-[15px]" />,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/spongeofwallstreet",
   },
   {
-    icon: <Discord className="w-[15px] h-[15px]" />,
-    link: "https://discord.com/",
+    icon: <Twitter className="w-[15px] h-[15px]" />,
+    link: "https://x.com/spongeofwallst",
+  },
+  {
+    icon: <Telegram className="w-[15px] h-[15px]" />,
+    link: "https://t.me/spongeofwallstreet",
   },
 ];

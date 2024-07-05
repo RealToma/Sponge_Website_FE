@@ -56,8 +56,8 @@ export const About = () => {
                 About Sponge
               </h1>
               <p className=" w-[60%] md:w-[40%]  xl:w-auto leading-[8px] md:leading-3  text-[9px]  md:text-[12px] xl:text-[14px] mt-[5px] xl:mt-[10px] mb-[5px] text-[#263D6B]  font-normal xl:leading-[28px] text-center paytone">
-                The Tale of Sponge of Wallstreet on the Solana Blockchain
-                (Continuation) After Sponge creating, Sponge of Wallstreet
+                The Tale of Sponge of Wall Street on the Solana Blockchain
+                (Continuation) After Sponge creating, Sponge of Wall Street
                 ($SOW), Sponge's life took an exciting turn. The coin's
                 popularity soared, and Sponge became famous underwater. Everyone
                 on Wall Street and beyond wanted a piece of $SOW. With $SOW's
@@ -114,7 +114,7 @@ export const About = () => {
                 ></video>
               </div>
               <h1 className="text-[18px] xl:text-[20px] luckiest text-[#AF6D27] my-2 xl:my-[10px] font-normal xl:leading-0 text-center">
-                The Wolf of Wallstreet PATRICK one
+                The Wolf of Wall Street PATRICK one
               </h1>
             </div>
           </div>
