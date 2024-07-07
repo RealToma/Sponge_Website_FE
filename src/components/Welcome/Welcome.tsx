@@ -22,7 +22,7 @@ export const Welcome = () => {
       ></div>
       <img
         src="/hero-bg.png"
-        className="absolute  top-0  h-full z-[-1] object-cover xl:object-fill"
+        className="absolute w-full top-0  h-full z-[-1] object-cover xl:object-fill"
         alt=""
       />
     </section>

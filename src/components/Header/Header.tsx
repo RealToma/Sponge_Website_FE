@@ -27,7 +27,7 @@ export const Header = () => {
 
   return (
     <header
-      className={`w-full fixed top-0 min-h-[100px] z-[999] flex items-center  ${styles.bg} `}
+      className={`w-full fixed top-0 min-h-[120px] z-[10000] flex items-center  ${styles.bg}`}
     >
       <div className="w-full h-full relative flex items-center ">
         <div className="container px-5 xl:px-0 justify-between flex items-center w-full h-full">
@@ -45,14 +45,14 @@ export const Header = () => {
           <ul
             className={` transition-all duration-300 ${
               open ? "left-0" : "left-[-100%]"
-            } fixed w-full h-full xl:w-auto  xl:h-auto bg-[#663C0C] xl:bg-transparent pl-10 pt-20 xl:pt-0 gap-y-5 xl:pl-0 flex-col xl:flex-row items-start z-30 top-0 xl:static flex xl:items-center gap-x-[52px]`}
+            } fixed w-full h-full xl:w-auto  xl:h-auto bg-[#663C0C] xl:bg-transparent pl-10 pt-20 xl:pt-0 gap-y-5 xl:pl-0 flex-col xl:flex-row items-start z-30 top-0 xl:static flex xl:items-center gap-x-[100px]`}
           >
             {LINKS.map((link, index) => (
               <li key={index}>
                 <a
                   onClick={() => setOpen(false)}
                   href={link.path}
-                  className="text-lg transition-all duration-300 hover:text-[#F3D583] paytone text-white font-normal leading-[25.13px]"
+                  className="text-[20px] transition-all duration-300 hover:text-[#F3D583] paytone text-white font-normal leading-[25.13px]"
                 >
                   {link.label}
                 </a>
