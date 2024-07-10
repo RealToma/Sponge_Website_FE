@@ -74,7 +74,7 @@ export const Tokenomics = () => {
       <div className=" z-[101] absolute  -translate-x-1/2 w-full left-1/2 top-0 xl:-top-32">
         <div
           ref={textContent}
-          className="flex flex-col  pt-[60px] xl:pt-[150px] items-center container px-5 xl:px-0"
+          className="flex flex-col  pt-[60px] xl:pt-[250px] items-center container px-5 xl:px-0"
         >
           <h1 className="text-[38px] xl:text-[70px] text-white luckiest font-normal leading-[72px] text-center">
             Total Supply
@@ -107,7 +107,7 @@ export const Tokenomics = () => {
           <img
             src="/total-girl.png"
             alt=""
-            className="translate-x-[0px] translate-y-[80px] xl:translate-y-0 h-full xl:h-[800px] md:translate-x-[-140px] xl:translate-x-0  w-full xl:w-full"
+            className="translate-x-[0px] translate-y-[80px] xl:translate-y-0 h-full xl:h-[700px] md:translate-x-[-140px] xl:translate-x-0  w-full xl:w-full"
           />
         </div>
       </div>
@@ -118,7 +118,7 @@ export const Tokenomics = () => {
       />
       <div
         ref={welcome}
-        className="z-[101] absolute w-full md:w-auto top-[-50px] xl:-top-[220px] left-1/2 -translate-x-1/2 "
+        className="z-[101] absolute w-full md:w-auto top-[-50px] xl:-top-[200px] left-1/2 -translate-x-1/2 "
       >
         <img
           id="welcome"

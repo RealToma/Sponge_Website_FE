@@ -46,7 +46,7 @@ export const About = () => {
           src="/about-bg.jpg"
           className="absolute top-0 z-[-1] left-0 w-full h-full object-cover xl:object-fill"
         />
-        <div className="w-full flex-col xl:flex-row flex h-full pt-0 xl:pt-32 pb-0 xl:pb-96 items-center gap-x-[20px] px-5 xl:px-0  container">
+        <div className="w-full flex-col xl:flex-row flex h-full pt-[0px] xl:pt-[200px] pb-0 xl:pb-96 items-center gap-x-[20px] px-5 xl:px-0  container">
           <div className=" z-[101] w-full py-8 xl:w-[60%]">
             <div
               ref={container}
@@ -121,7 +121,7 @@ export const About = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} w-[300%] left-[-150px] translate-x-[-20%] h-[100px] xl:h-[150px] absolute -bottom-7 xl:-bottom-14 `}
+        className={`${styles.blur} w-[300%] left-[-150px] translate-x-[-20%] h-[200px] xl:h-[150px] absolute -bottom-7 xl:-bottom-14 `}
       ></div>
     </section>
   );

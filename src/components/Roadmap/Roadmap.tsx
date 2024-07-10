@@ -162,12 +162,12 @@ export const Roadmap = () => {
       </div>
       <div
         ref={textContent}
-        className="z-[101] container px-5 xl:px-0 pt-32 xl:pt-[240px]"
+        className="z-[1000] relative container px-5 xl:px-0 pt-32 xl:pt-[150px]"
       >
         <h1 className="text-[23px] xl:text-7xl text-[#D9D9D9] luckiest font-normal xl:leading-[100px] text-left">
           OUR ROAD MAP
         </h1>
-        <p className=" text-[14px] xl:text-lg w-full xl:w-[60%] paytone text-[#F3D583] font-normal xl:leading-[30px] text-left">
+        <p className="text-[14px] xl:text-lg w-full xl:w-[60%] paytone text-[#F3D583] font-normal xl:leading-[30px] text-left">
           Patrick, Mr. Krabs, and even Squidward invested in $SOW, each dreaming
           of riches. As word spread, $SOW became popular across the ocean,
           bringing the whimsical world of Bikini Bottom to the high-stakes arena
