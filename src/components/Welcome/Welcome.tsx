@@ -21,7 +21,7 @@ export const Welcome = () => {
         className={`${styles.blur} z-[99] w-[300%] left-[-150px] translate-x-[-20%] h-[100px] xl:h-[150px] absolute -bottom-7 xl:-bottom-14 `}
       ></div>
       <img
-        src="/hero-bg.png"
+        src="/hero-bg.jpg"
         className="absolute w-full top-0  h-full z-[-1] object-cover xl:object-fill"
         alt=""
       />

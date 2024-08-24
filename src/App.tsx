@@ -40,7 +40,6 @@ export const App = () => {
           </VideoBackLoop>
         </Layout>
       )}
-
       <CustomCursor />
     </>
   );
