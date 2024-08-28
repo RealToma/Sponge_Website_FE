@@ -37,11 +37,11 @@ export const Faq = () => {
   }, []);
 
   return (
-    <section className="w-full relative min-h-screen xl:h-[1533px]">
+    <section className="w-full relative min-h-screen xl:h-[1200px]">
       <img
         src="/faq-bg.png"
         alt=""
-        className="absolute h-full z-[-1] top-0 left-0 object-cover xl:object-fill"
+        className="absolute w-full h-full z-[-1] top-0 left-0 object-cover xl:object-fill"
       />
       <div className="w-full container px-5 pt-44 xl:pt-0  xl:px-0 flex items-end h-full flex-col-reverse xl:flex-row pb-[50px]">
         <img
@@ -52,9 +52,9 @@ export const Faq = () => {
         />
         <div
           ref={card}
-          className="z-[101]  w-full xl:w-[70%] pt-5 pb-5 xl:pt-[27px] xl:pb-[46px] pl-4 xl:pl-[48px] pr-4 xl:pr-[54px] bg-[#005B81] rounded-xl xl:rounded-[38px]"
+          className="z-[101]  w-full xl:w-[70%] pt-5 pb-5 xl:pt-[27px] xl:pb-[46px] pl-4 xl:pl-[48px] pr-4 xl:pr-[54px] bg-[#c23631] rounded-xl xl:rounded-[38px]"
         >
-          <h1 className=" text-[28px] xl:text-7xl text-center luckiest font-normal leading-[77px] text-[#D9D9D9]">
+          <h1 className=" text-[28px] xl:text-[60px] text-center luckiest font-normal leading-[77px] text-[#F3D583] mb-[15px]">
             F.A.Q
           </h1>
           <div className="flex flex-col gap-y-6">

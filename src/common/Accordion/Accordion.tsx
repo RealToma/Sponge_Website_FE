@@ -16,11 +16,11 @@ export const Accordion = ({ content, title }: Props) => {
       } border border-solid border-[#E8F4F1] rounded-md `}
       onClick={() => setOpen(!open)}
     >
-      <div className="flex h-full px-3 xl:px-[29px] items-center justify-between ">
+      <div className="flex h-full px-3 xl:px-[15px] items-center justify-between ">
         <p
           className={` absolute  transition-all duration-300  pl-3 pr-6 ${
             open
-              ? "-top-[15px] bg-[#005B81]  !text-[#C5FFA9] "
+              ? "-top-[15px] bg-[#c23631]  !text-[#F3D583] "
               : "top-1/2 -translate-y-1/2"
           } text-[14px] xl:text-base text-[#E8F4F1] paytone font-normal leading-6 text-left`}
         >
@@ -29,7 +29,7 @@ export const Accordion = ({ content, title }: Props) => {
         <ArrowDown
           className={` transition-all duration-300 ${
             open ? "" : "-rotate-180 "
-          } text-[#E8F4F1] absolute right-4 xl:right-[53px]`}
+          } text-[#E8F4F1] absolute right-[10px] xl:right-[30px]`}
         />
         {open && (
           <div className=" text-[14px] xl:text-base paytone text-[#E8F4F1] font-normal leading-6 text-left">
