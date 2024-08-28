@@ -97,7 +97,7 @@ export const Roadmap = () => {
   return (
     <section id="roadmap" className="w-full relative h-[2421px]">
       <img
-        src="/roadmap-bg.jpg"
+        src="/roadmap-bg.png"
         alt=""
         className="absolute top-0 left-0 w-full h-full object-cover xl:object-fill z-[-1]"
       />
@@ -175,8 +175,8 @@ export const Roadmap = () => {
           Patrick, Mr. Krabs, and even Squidward invested in $SOW, each dreaming
           of riches. As word spread, $SOW became popular across the ocean,
           bringing the whimsical world of Bikini Bottom to the high-stakes arena
-          of digital finance, transforming SpongeBob into the Sponge of Wall
-          Street.
+          of digital finance, transforming 2 well-known narratives to Sponge of
+          Wall Street.
         </p>
       </div>
       <div
