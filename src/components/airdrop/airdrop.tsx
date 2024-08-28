@@ -93,7 +93,7 @@ export const Airdrop = () => {
         </div>
       </div>
       <img
-        src="/airdrop-bg.png"
+        src="/airdrop-bg.jpg"
         alt=""
         className="z-[-1] w-full h-full absolute top-0  object-cover xl:object-right-bottom"
       />

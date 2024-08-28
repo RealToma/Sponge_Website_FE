@@ -97,7 +97,7 @@ export const Roadmap = () => {
   return (
     <section id="roadmap" className="w-full relative h-[2421px]">
       <img
-        src="/roadmap-bg.png"
+        src="/roadmap-bg.jpg"
         alt=""
         className="absolute top-0 left-0 w-full h-full object-cover xl:object-fill z-[-1]"
       />

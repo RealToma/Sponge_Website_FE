@@ -27,7 +27,7 @@ export const Header = () => {
 
   return (
     <header
-      className={`w-full min-h-[120px] z-[10000] flex items-center  ${styles.bg}`}
+      className={`w-full  min-h-[120px] z-[10000] flex items-center  ${styles.bg}`}
     >
       <div className="w-full h-full relative flex items-center ">
         <div className="container px-5 xl:px-0 justify-between flex items-center w-full h-full">

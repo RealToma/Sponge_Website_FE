@@ -2,7 +2,7 @@ import styles from "./Hero.module.css";
 export const Hero = () => {
   return (
     <section id="home" className={`min-h-screen xl:h-[1080px]  relative `}>
-      <div className="w-full container flex justify-center pt-[300px] px-5 xl:px-0 h-full">
+      <div className="w-full container flex justify-center lg:pt-[300px] pt-[150px] px-5 xl:px-0 h-full">
         <div className="w-full flex flex-col items-center z-[101]">
           <h1
             className={`${styles.title_shadow} text-white w-[90%] md:w-[75%] xl:w-[70%] luckiest text-center text-[50px] sm:text-[60px] md:text-[65px] xl:text-[75px] not-italic font-normal leading-[111.425%]`}
@@ -17,7 +17,7 @@ export const Hero = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} z-[99] w-[300%] left-[-150px] translate-x-[-20%] h-[50px] xl:h-[158px] absolute -bottom-7 xl:-bottom-14 `}
+        className={`${styles.blur} w-[300%] left-[-150px] translate-x-[-20%] h-[100px] xl:h-[150px] absolute -bottom-12 xl:-bottom-14`}
       ></div>
       <img
         src="/hero-bg.jpg"

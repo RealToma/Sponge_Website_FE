@@ -39,7 +39,7 @@ export const GeneralOverview = () => {
   return (
     <section className="w-full xl:h-[1419px] relative ">
       <img
-        src="/general-overview.png"
+        src="/general-overview.jpg"
         alt=""
         className="w-full h-full object-cover xl:object-fill absolute top-0 left-0 z-[-1]"
       />
