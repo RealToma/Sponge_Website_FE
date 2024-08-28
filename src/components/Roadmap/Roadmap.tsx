@@ -42,11 +42,11 @@ const PHASE4 = [
 ];
 
 const PHASE5 = [
-  "Top-Tier Listings: Elevate $SOW with tier-1 exchange listings.",
+  "Top-Tier Listings: Elevate $Sponge with tier-1 exchange listings.",
 ];
 
 const PHASE6 = [
-  "Rewards and Raffles: Exclusive rewards for loyal $SOW holders.",
+  "Rewards and Raffles: Exclusive rewards for loyal $Sponge holders.",
 ];
 
 export const Roadmap = () => {
@@ -172,8 +172,8 @@ export const Roadmap = () => {
         <p
           className={`${styles.text_border01} text-[12px] xl:text-[26px] w-full  xl:w-[70%] paytone text-[#FFFFFF] font-normal xl:leading-[30px] text-left`}
         >
-          Patrick, Mr. Krabs, and even Squidward invested in $SOW, each dreaming
-          of riches. As word spread, $SOW became popular across the ocean,
+          Patrick, Mr. Krabs, and even Squidward invested in $Sponge, each dreaming
+          of riches. As word spread, $Sponge became popular across the ocean,
           bringing the whimsical world of Bikini Bottom to the high-stakes arena
           of digital finance, transforming 2 well-known narratives to Sponge of
           Wall Street.

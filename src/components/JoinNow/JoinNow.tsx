@@ -55,11 +55,11 @@ export const JoinNow = () => {
             Join Now Presale
           </h1>
           <p className="xl:w-[70%] lg:w-[30%] md:w-[50%] sm:w-[50%] w-[70%] text-[8px] sm:text-[12px] lg:text-[12px] md:text-[12px] mt-0 xl:mt-3 xl:text-xl font-normal paytone xl:leading-[35px] text-center text-[#263D6B]">
-            The Tale of Sponge of Wall Street on the Solana Blockchain
-            (Continuation) After Sponge creating, Sponge of Wall Street ($SOW),
+            The Tale of Sponge of Wall Street on the Tron Blockchain
+            (Continuation) After Sponge creating, Sponge of Wall Street ($Sponge),
             Sponge's life took an exciting turn. The coin's popularity soared,
             and Sponge became famous underwater. Everyone on Wall Street and
-            beyond wanted a piece of $SOW. With $SOW's success, Sponge's
+            beyond wanted a piece of $Sponge. With $Sponge's success, Sponge's
             ambitions grew. He wanted to make his mark not only underwater but
             also on the real Wall Street.
           </p>

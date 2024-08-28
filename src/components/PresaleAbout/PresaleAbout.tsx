@@ -81,7 +81,7 @@ export const PresaleAbout = () => {
                 Presale Wallet
               </Button>
               <p className="text-base xl:text-[16px] font-normal paytone leading-[27.92px] text-center pt-[10px]">
-                Deposit your investment to our official Solana wallet address:{" "}
+                Deposit your investment to our official Tron wallet address:{" "}
                 {"\u00a0"}
                 {shortAddress("8m5GRo5jgJGfK2NQt9BuWR8FxmAzoQbf5n99X3joAcen")}
               </p>

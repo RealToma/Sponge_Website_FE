@@ -71,8 +71,8 @@ export const Header = () => {
               >
                 {/* BUY{"\u00a0"}
                 {"\u00a0"}
-                {"\u00a0"}$SOW */}
-                How to buy
+                {"\u00a0"}$Sponge */}
+                BUY NOW
               </Button>
             </li>
           </ul>

@@ -24,7 +24,7 @@ export const ReasonToHave = () => {
               {/* Like Spongebob's unyielding optimism, holding $Sponge keeps your
               portfolio in peak condition, offering presale perks and regular
               bonuses. */}
-              Like Spongebob’s optimism, $SOW boosts your portfolio with presale
+              Like Spongebob’s optimism, $Sponge boosts your portfolio with presale
               perks and bonuses.
             </p>
           </div>
