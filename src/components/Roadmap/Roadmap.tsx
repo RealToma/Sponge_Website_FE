@@ -165,7 +165,7 @@ export const Roadmap = () => {
         className="z-[1000] relative container px-5 xl:px-0 pt-32 xl:pt-[150px]"
       >
         <h1
-          className={`${styles.title_shadow} text-[23px] xl:text-7xl text-[#F3D583] luckiest font-normal xl:leading-[100px] text-left`}
+          className={`${styles.title_shadow} text-[23px] xl:text-7xl text-[#c23631] luckiest font-normal xl:leading-[100px] text-left`}
         >
           OUR ROADMAP
         </h1>

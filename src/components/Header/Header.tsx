@@ -2,19 +2,21 @@ import { useEffect, useState } from "react";
 import { Button } from "../../common";
 import { LINKS } from "../../constants";
 import styles from "./Header.module.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 export const Header = () => {
   const [open, setOpen] = useState(false);
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const PrssaleHandle = () => {
-    setOpen(false);
-    navigate("/presale");
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    window.open("https://sunpump.meme/")
+    // setOpen(false);
+    // navigate("/presale");
+    // window.scrollTo({
+    //   top: 0,
+    //   behavior: "smooth",
+    // });
   };
 
   useEffect(() => {

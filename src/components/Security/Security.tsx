@@ -85,13 +85,13 @@ export const Security = () => {
         <div className="z-[101]  w-full md:w-full xl:w-[70%]">
           <h1
             ref={textContent}
-            className={`${styles.title_shadow} text-[32px] xl:text-7xl font-normal text-[#F3D583] luckiest leading-[72px] text-center`}
+            className={`${styles.title_shadow} text-[32px] xl:text-7xl font-normal text-[#c23631] luckiest leading-[72px] text-center`}
           >
             Security
           </h1>
           <p
             ref={textContent}
-            className={`${styles.text_border01}  text-[14px] xl:text-xl paytone mb-4 xl:mb-[50px] text-white font-normal xl:leading-[34.23px] tracking-[-0.01em] text-center`}
+            className={`${styles.text_border01}  text-[14px] xl:text-[24px] paytone mb-4 xl:mb-[50px] text-white font-normal xl:leading-[34.23px] tracking-[-0.01em] text-center`}
           >
             Stay vigilant and secure, and you'll enjoy the benefits <br /> of
             our memecoin without worries

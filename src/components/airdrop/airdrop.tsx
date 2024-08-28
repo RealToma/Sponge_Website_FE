@@ -58,7 +58,7 @@ export const Airdrop = () => {
           <div ref={shell1} className="w-full xl:w-[462px] relative">
             <img src="/shell.png" alt="" />
             <div className="absolute pl-0 left-1/2 xl:left-[50%] -translate-x-1/2 md:pl-8 xl:pl-0 flex justify-center flex-col items-center  top-[40%] -translate-y-1/2">
-              <h1 className=" text-[15px]  md:text-[24px]  xl:text-[32px] text-[#723D00] paytone font-normal xl:leading-[44.67px] text-center">
+              <h1 className=" text-[15px]  md:text-[24px]  xl:text-[32px] text-[#c23631] paytone font-normal xl:leading-[44.67px] text-center">
                 Airdrops
               </h1>
               <p className="text-[11px] xl:text-sm w-[100%] text-[#263D6B] paytone font-normal xl:leading-[19.54px] text-center">
@@ -71,7 +71,7 @@ export const Airdrop = () => {
           <div ref={shell2} className="w-full xl:w-[462px] relative mt-[30px]  lg:mt-[100px]">
             <img src="/shell.png" alt="" />
             <div className="absolute pl-0 left-1/2 xl:left-[50%] -translate-x-1/2 md:pl-8 xl:pl-0 flex justify-center flex-col items-center  top-[40%] -translate-y-1/2">
-              <h1 className=" text-[15px]  md:text-[24px]  xl:text-[32px] text-[#723D00] paytone font-normal xl:leading-[44.67px] text-center">
+              <h1 className=" text-[15px]  md:text-[24px]  xl:text-[32px] text-[#c23631] paytone font-normal xl:leading-[44.67px] text-center">
                 Presale
               </h1>
               <p className="text-[11px] xl:text-sm m-auto w-[100%] text-[#263D6B] paytone font-normal xl:leading-[19.54px] text-center">

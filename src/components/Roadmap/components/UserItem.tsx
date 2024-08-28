@@ -51,9 +51,9 @@ export const UserItem = ({
         </div>
       </div>
       <div className='flex  pt-7 flex-col '>
-        <div className='flex items-center gap-x-6'>
+        <div className='flex items-center gap-x-3'>
           <img src='/avatar.png' className='w-[39px] h-[39px]' />
-          <p className='text-white paytone text-xl not-italic font-normal leading-[normal]'>
+          <p className='text-[#F3D583] paytone text-xl not-italic font-normal leading-[normal]'>
             {userName}
           </p>
         </div>

@@ -5,7 +5,7 @@ export const Hero = () => {
       <div className="w-full container flex justify-center lg:pt-[300px] pt-[150px] px-5 xl:px-0 h-full">
         <div className="w-full flex flex-col items-center z-[101]">
           <h1
-            className={`${styles.title_shadow} text-[#F3D583] w-[90%] md:w-[75%] xl:w-[70%] luckiest text-center text-[50px] sm:text-[60px] md:text-[65px] xl:text-[75px] not-italic font-normal leading-[111.425%]`}
+            className={`${styles.title_shadow} text-[#c23631] w-[90%] md:w-[75%] xl:w-[70%] luckiest text-center text-[50px] sm:text-[60px] md:text-[65px] xl:text-[75px] not-italic font-normal leading-[111.425%]`}
           >
             Welcome to the world of $SPONGE OF WALL STREET
           </h1>

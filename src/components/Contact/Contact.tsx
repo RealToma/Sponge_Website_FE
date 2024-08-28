@@ -7,12 +7,12 @@ export const Contact = () => {
       className="z-[101] w-full bg-[#1E1E1E] pb-[25px] pt-10 xl:pt-[123px]"
     >
       <div className="container">
-        <h1 className=" text-[28px] xl:text-7xl text-[#EEEEEE] luckiest font-normal leading-[72px] text-center">
+        <h1 className=" text-[28px] xl:text-7xl text-[#c23631] luckiest font-normal leading-[72px] text-center">
           Contact Us
         </h1>
         <p className=" text-base xl:text-lg mt-3 paytone font-normal text-[#EEEEEE] leading-6 text-center">
           Email us at{" "}
-          <a href="#" className="text-[#F9C819]">
+          <a href="#" className="text-[#c23631]">
             support@sponge.io
           </a>{" "}
           for any <br /> queries or support
@@ -22,7 +22,7 @@ export const Contact = () => {
             <a
               key={index}
               href={media.link}
-              className="w-[40.39px] transition-all duration-500 footer_icon_hover hover:text-[#040F00] h-[40.39px] rounded-full border border-[#ffc700] text-[#FFCF24] hover:border-transparent flex justify-center items-center"
+              className="w-[40.39px] transition-all duration-500 footer_icon_hover hover:text-[#040F00] h-[40.39px] rounded-full border border-[#c23631] text-[#c23631] hover:border-transparent flex justify-center items-center"
             >
               {media.icon}
             </a>
