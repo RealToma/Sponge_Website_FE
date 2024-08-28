@@ -4,13 +4,11 @@ export const Button = ({
   children,
   className,
   leftIcon,
-  borderColor = "#000000",
   onClick,
 }: Props) => {
   return (
     <button
-      style={{ background: borderColor }}
-      className={` ${styles.button} p-[1px] `}
+      className={` ${styles.button} p-[1px]`}
       onClick={onClick}
     >
       <span

@@ -27,7 +27,7 @@ export const Header = () => {
 
   return (
     <header
-      className={`w-full  min-h-[120px] z-[10000] flex items-center  ${styles.bg}`}
+      className={`w-full  min-h-[120px] z-[1000] flex items-center  ${styles.bg}`}
     >
       <div className="w-full h-full relative flex items-center ">
         <div className="container px-5 xl:px-0 justify-between flex items-center w-full h-full">
@@ -40,7 +40,11 @@ export const Header = () => {
               });
             }}
           >
-            <img src="/sponge_logo.png" alt="logo" className="w-[73px] h-[73px]" />
+            <img
+              src="/sponge_logo.png"
+              alt="logo"
+              className="w-[90px] h-[90px]"
+            />
           </Link>
           <ul
             className={` transition-all duration-300 ${
@@ -61,9 +65,12 @@ export const Header = () => {
             <li>
               <Button
                 onClick={PrssaleHandle}
-                className="text-[#AF6D27] transition-all duration-500 hover:bg-[#070707] hover:text-white  "
+                className="text-[#000000] transition-all duration-500 hover:bg-[#000000] hover:text-[#F3D583]"
               >
-                PRESALE TBA
+                {/* BUY{"\u00a0"}
+                {"\u00a0"}
+                {"\u00a0"}$SOW */}
+                How to buy
               </Button>
             </li>
           </ul>

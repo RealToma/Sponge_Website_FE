@@ -68,7 +68,7 @@ export const Airdrop = () => {
             </div>
           </div>
 
-          <div ref={shell2} className="w-full xl:w-[462px] relative">
+          <div ref={shell2} className="w-full xl:w-[462px] relative mt-[30px]  lg:mt-[100px]">
             <img src="/shell.png" alt="" />
             <div className="absolute pl-0 left-1/2 xl:left-[50%] -translate-x-1/2 md:pl-8 xl:pl-0 flex justify-center flex-col items-center  top-[40%] -translate-y-1/2">
               <h1 className=" text-[15px]  md:text-[24px]  xl:text-[32px] text-[#723D00] paytone font-normal xl:leading-[44.67px] text-center">
@@ -95,7 +95,7 @@ export const Airdrop = () => {
       <img
         src="/airdrop-bg.jpg"
         alt=""
-        className="z-[-1] w-full h-full absolute top-0  object-cover xl:object-right-bottom"
+        className="z-[-1] w-full h-full  absolute top-0  xl:object-right-bottom object-cover xl:object-fill"
       />
       <div
         className={`w-[300%] left-[-150px] translate-x-[-20%] h-[104px] absolute -bottom-10 ${styles.blur}`}

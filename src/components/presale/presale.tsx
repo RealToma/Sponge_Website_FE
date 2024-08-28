@@ -49,16 +49,16 @@ export const Presale = () => {
           <div
             className={`${styles.wood_card} pb-[160px]   pt-[160px] xl:pt-[208px] flex flex-col items-center w-full xl:pb-[201px] pl-[80px] pr-[80px] xl:pl-[134px] xl:pr-[140px]`}
           >
-            <h1 className=' text-[14px] md:text-[28px] xl:text-[40px] text-[#663C0C] luckiest font-normal leading-10 text-center'>
+            <h1 className=' text-[14px] md:text-[28px] xl:text-[40px] text-[#F3D583] luckiest font-normal leading-10 text-center'>
               presale
             </h1>
-            <p className=' md:w-[40%] xl:w-auto mb-2 leading-3 text-[10px] md:text-[15px] xl:text-2xl xl:mt-[21px] xl:mb-[58px] text-[#263D6B] paytone font-normal xl:leading-[33.5px] text-center'>
+            <p className=' md:w-[40%] xl:w-[90%] mb-2 leading-3 text-[10px] md:text-[15px] xl:text-2xl xl:mt-[21px] xl:mb-[58px] text-[#F3D583] paytone font-normal xl:leading-[33.5px] text-center'>
               Join our presale to be part of something big, and keep an eye out
               for upcoming airdrops to fill your treasure chest with valuable
               coins!
             </p>
             <Button
-              className='montserrat transition-all duration-500 text-[8px] hover:!text-[#070707] hover:!bg-white md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white'
+              className='montserrat transition-all duration-500 text-[8px] hover:!text-[#F3D583] hover:!bg-black md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#F3D583] !text-black'
               borderColor='#F3D583'
             >
               JOIN NOW

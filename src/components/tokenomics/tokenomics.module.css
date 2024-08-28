@@ -6,3 +6,7 @@
     filter: blur(12px);
   }
 }
+
+.title_shadow {
+  text-shadow: 0px 4px 5px #000;
+}

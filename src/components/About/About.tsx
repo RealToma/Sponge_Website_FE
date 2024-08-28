@@ -52,10 +52,10 @@ export const About = () => {
               ref={container}
               className={`${styles.card}  z-[101] h-[430px] xl:h-[500px] xl:min-h-[698px] xl:pt-[162px] xl:pb-[143px] flex px-0 xl:px-[142px]  flex-col items-center justify-center`}
             >
-              <h1 className=" text-[18px] sm:text-[35px] md:text-[35px] lg:text-[40px] text-[#AF6D27] font-normal xl:leading-10 text-center luckiest">
+              <h1 className=" text-[18px] sm:text-[35px] md:text-[35px] lg:text-[40px] text-[#F3D583] font-normal xl:leading-10 text-center luckiest">
                 About Sponge
               </h1>
-              <p className=" w-[60%] md:w-[40%]  xl:w-auto leading-[8px] md:leading-3  text-[9px]  md:text-[12px] xl:text-[14px] mt-[5px] xl:mt-[10px] mb-[5px] text-[#263D6B]  font-normal xl:leading-[28px] text-center paytone">
+              <p className=" w-[60%] md:w-[42%]  xl:w-[90%] leading-[11px]  md:leading-3  text-[9px]  md:text-[12px] xl:text-[14px] mt-[5px] xl:mt-[15px] mb-[5px] text-[#F3D583]  xl:font-normal xl:leading-[28px] text-center paytone lg:mb-[50px] md:mb-[30px]">
                 The Tale of Sponge of Wall Street on the Solana Blockchain
                 (Continuation) After Sponge creating, Sponge of Wall Street
                 ($SOW), Sponge's life took an exciting turn. The coin's
@@ -65,7 +65,7 @@ export const About = () => {
                 only underwater but also on the real Wall Street.{" "}
               </p>
               <Button
-                className="montserrat transition-all duration-500 text-[9px] md:!text-[10px]  xl:!text-xl !px-4 !pt-[1px] !pb-[1px] xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] hover:!text-[#070707] hover:!bg-white !text-white items-center justify-center"
+                className="montserrat transition-all duration-500 text-[9px] md:!text-[10px]  xl:!text-xl !px-4 !pt-[1px] !pb-[1px] xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#F3D583] hover:!text-[#F3D583] hover:!bg-[#000000] !text-black items-center justify-center"
                 borderColor="#F3D583"
               >
                 LEARN MORE
@@ -76,7 +76,7 @@ export const About = () => {
             ref={aboutVideo}
             className="w-full pb-40 xl:pb-0 xl:w-[30%] z-[101]"
           >
-            <div className="py-[20px] bg-[#F3D583] px-[20px] xl:py-[20px] rounded-[27px]">
+            <div className="py-[20px] bg-[#C23631] px-[20px] xl:py-[20px] rounded-[27px]">
               <div className="w-full relative">
                 {/* {isPlay ? (
                   <video
@@ -113,7 +113,7 @@ export const About = () => {
                   className="!w-full h-[450px] object-cover rounded-[12px]"
                 ></video>
               </div>
-              <h1 className="text-[18px] xl:text-[20px] luckiest text-[#AF6D27] my-2 xl:my-[10px] font-normal xl:leading-0 text-center">
+              <h1 className="text-[18px] xl:text-[20px] luckiest text-[#F3D583] my-2 xl:my-[10px] font-normal xl:leading-0 text-center">
                 The Wolf of Wall Street PATRICK one
               </h1>
             </div>

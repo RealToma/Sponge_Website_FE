@@ -76,7 +76,9 @@ export const Tokenomics = () => {
           ref={textContent}
           className="flex flex-col  pt-[60px] xl:pt-[250px] items-center container px-5 xl:px-0"
         >
-          <h1 className="text-[38px] xl:text-[70px] text-white luckiest font-normal leading-[72px] text-center">
+          <h1
+            className={`${styles.title_shadow} text-[38px] xl:text-[70px] text-[#F3D583] luckiest font-normal leading-[72px] text-cente`}
+          >
             Total Supply
           </h1>
           <p className="text-[10px] xl:text-[26px] w-full xl:w-[75%] paytone text-[#F3D583] font-normal xl:leading-[36.3px] text-center">
