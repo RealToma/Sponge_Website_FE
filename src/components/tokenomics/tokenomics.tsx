@@ -81,7 +81,9 @@ export const Tokenomics = () => {
           >
             Total Supply
           </h1>
-          <p className="text-[10px] xl:text-[26px] w-full xl:w-[75%] paytone text-[#F3D583] font-normal xl:leading-[36.3px] text-center">
+          <p
+            className={`${styles.text_border01} text-[10px] xl:text-[26px] w-full xl:w-[75%] paytone text-[#ffffff] font-normal xl:leading-[36.3px] text-center`}
+          >
             We have a fixed supply, ensuring scarcity and value. Circulating
             Supply: The number of coins in circulation, available for trading.
             Burn Mechanism: To increase scarcity, a percentage of coins are
