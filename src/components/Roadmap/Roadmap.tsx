@@ -29,7 +29,7 @@ gsap.registerPlugin(ScrollTrigger);
 // ];
 
 // new
-const PHASE1 = ["Presale Launch: Early access for investors."];
+const PHASE1 = ["Launch on Sun.Pump: Early access for investors."];
 
 const PHASE2 = ["DEX Launch: Public launch on decentralized exchanges."];
 
@@ -165,12 +165,12 @@ export const Roadmap = () => {
         className="z-[1000] relative container px-5 xl:px-0 pt-32 xl:pt-[150px]"
       >
         <h1
-          className={`${styles.title_shadow} text-[23px] xl:text-7xl text-[#c23631] luckiest font-normal xl:leading-[100px] text-left`}
+          className={`${styles.title_shadow} text-[32px] xl:text-7xl text-[#c23631] luckiest font-normal xl:leading-[100px] text-left`}
         >
           OUR ROADMAP
         </h1>
         <p
-          className={`${styles.text_border01} text-[12px] xl:text-[26px] w-full  xl:w-[70%] paytone text-[#FFFFFF] font-normal xl:leading-[30px] text-left`}
+          className={`${styles.text_border01} text-[13px] xl:text-[26px] w-full  xl:w-[70%] paytone text-[#FFFFFF] font-normal xl:leading-[30px] text-left`}
         >
           Patrick, Mr. Krabs, and even Squidward invested in $Sponge, each dreaming
           of riches. As word spread, $Sponge became popular across the ocean,

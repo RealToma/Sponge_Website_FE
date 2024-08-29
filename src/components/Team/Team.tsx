@@ -53,7 +53,7 @@ export const Team = () => {
         className="z-[101] absolute bottom-[-30px] md:bottom-[150px] pb-20 md:pb-44  xl:pb-0 xl:bottom-[100px] w-full flex flex-col items-center"
       >
         <h1
-          className={`${styles.title_shadow}  text-[28px] xl:text-7xl font-normal xl:leading-[100px] text-left text-[#c23631] luckiest`}
+          className={`${styles.title_shadow}  text-[36px] xl:text-7xl font-normal xl:leading-[100px] text-left text-[#c23631] luckiest`}
         >
           Team
         </h1>

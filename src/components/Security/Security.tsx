@@ -85,7 +85,7 @@ export const Security = () => {
         <div className="z-[101]  w-full md:w-full xl:w-[70%]">
           <h1
             ref={textContent}
-            className={`${styles.title_shadow} text-[32px] xl:text-7xl font-normal text-[#c23631] luckiest leading-[72px] text-center`}
+            className={`${styles.title_shadow} text-[36px] xl:text-7xl font-normal text-[#c23631] luckiest leading-[72px] text-center`}
           >
             Security
           </h1>
