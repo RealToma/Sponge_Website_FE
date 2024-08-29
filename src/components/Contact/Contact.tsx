@@ -22,6 +22,7 @@ export const Contact = () => {
             <a
               key={index}
               href={media.link}
+              target="_blank"
               className="w-[40.39px] transition-all duration-500 footer_icon_hover hover:text-[#040F00] h-[40.39px] rounded-full border border-[#c23631] text-[#c23631] hover:border-transparent flex justify-center items-center"
             >
               {media.icon}
@@ -30,7 +31,7 @@ export const Contact = () => {
         </div>
         <div className="w-full h-[1px] footer_line" />
         <p className="text-center text-xs xl:text-base text-[#8C8B8B] font-normal leading-6  mt-[27px] paytone">
-          &copy; 2024 All rights reserved by $SPONGE OF WALL STREET.
+          &copy; 2024 All rights reserved by $SPONGE OF WALL STREET
         </p>
       </div>
     </section>
