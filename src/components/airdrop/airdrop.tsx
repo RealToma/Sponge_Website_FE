@@ -54,8 +54,8 @@ export const Airdrop = () => {
   return (
     <section className="w-full min-h-screen xl:h-screen relative">
       <div className="w-full flex flex-col px-5 xl:px-0 xl:flex-row h-full container">
-        <div className="z-[101] relative w-full pt-44 xl:pt-0 xl:w-1/2 h-full flex flex-col items-end justify-end pb-20 ">
-          <div ref={shell1} className="w-full xl:w-[462px] relative">
+        <div className="z-[101] relative w-full pt-44 xl:pt-0 xl:w-1/2 h-full flex flex-col items-center justify-center pb-20 ">
+          {/* <div ref={shell1} className="w-full xl:w-[462px] relative">
             <img src="/shell.png" alt="" />
             <div className="absolute pl-0 left-1/2 xl:left-[50%] -translate-x-1/2 md:pl-8 xl:pl-0 flex justify-center flex-col items-center  top-[40%] -translate-y-1/2">
               <h1 className=" text-[15px]  md:text-[24px]  xl:text-[32px] text-[#c23631] paytone font-normal xl:leading-[44.67px] text-center">
@@ -66,11 +66,11 @@ export const Airdrop = () => {
                 a certain amount of our memecoin, or completing simple tasks.
               </p>
             </div>
-          </div>
+          </div> */}
 
           <div
             ref={shell2}
-            className="w-full xl:w-[462px] relative mt-[30px]  lg:mt-[100px]"
+            className="w-full xl:w-[462px] relative mt-[50px]  md:mt-[100px] lg:mt-[200px]"
           >
             <img src="/shell.png" alt="" />
             <div className="absolute pl-0 left-1/2 xl:left-[50%] -translate-x-1/2 md:pl-8 xl:pl-0 flex justify-center flex-col items-center  top-[40%] -translate-y-1/2">

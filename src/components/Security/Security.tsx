@@ -123,7 +123,7 @@ export const Security = () => {
               className="bg-[#c23631] w-full md:w-full xl:w-[45%] relative rounded-[21px]  py-[35px] px-[34px]"
             >
               <h1 className=" text-[24px] xl:text-2xl font-normal xl:leading-6 text-left luckiest text-[#F3D583]">
-                Secure <br /> Transactions
+                Wallet <br /> Safety
               </h1>
               <p className=" text-sm xl:text-base paytone mt-[9px] font-normal xl:leading-[27.39px] tracking-[-0.01em] text-left text-white">
                 Use reputable wallets and enable <br /> two-factor
