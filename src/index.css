@@ -43,7 +43,7 @@ body {
 .footer_line {
   background: linear-gradient(90deg,
       #060609 -0.87%,
-      #f9c819 51.51%,
+      #c23631 51.51%,
       #060609 100%);
 }
 
@@ -57,6 +57,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background: #c23631;
+  /* border-radius: 4px; */
 }
 
 ::-webkit-scrollbar-thumb:hover {
