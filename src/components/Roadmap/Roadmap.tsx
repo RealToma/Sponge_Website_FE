@@ -29,7 +29,7 @@ gsap.registerPlugin(ScrollTrigger);
 // ];
 
 // new
-const PHASE1 = ["Launch on sumpump.meme: Early access for investors."];
+const PHASE1 = ["Launch on sunpump.meme: Early access for investors."];
 
 const PHASE2 = ["DEX Launch: Public launch on decentralized exchanges."];
 

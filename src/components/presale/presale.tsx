@@ -60,7 +60,7 @@ export const Presale = () => {
               How to buy
             </h1>
             <p className=" md:w-[40%] xl:w-[90%] mb-2 leading-3 text-[10px] md:text-[15px] xl:text-2xl xl:mt-[21px] xl:mb-[58px] text-[#F3D583] paytone font-normal xl:leading-[33.5px] text-center">
-              Join Sun Pump to be part of something big, and keep an eye out for
+              Join sunpump.meme to be part of something big, and keep an eye out for
               upcoming airdrops to fill your treasure chest with valuable coins!
             </p>
             <Button

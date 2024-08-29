@@ -65,7 +65,7 @@ export const Faq = () => {
 
             <Accordion
               title="2. How do I buy our memecoin?"
-              content="You can buy our memecoin on sumpump.meme"
+              content="You can buy our memecoin on sunpump.meme"
             />
 
             <Accordion
