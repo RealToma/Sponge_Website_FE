@@ -10,7 +10,7 @@ export const Header = () => {
   // const navigate = useNavigate();
 
   const PrssaleHandle = () => {
-    window.open("https://sunpump.meme/")
+    window.open("https://sunpump.meme/");
     // setOpen(false);
     // navigate("/presale");
     // window.scrollTo({
@@ -29,7 +29,7 @@ export const Header = () => {
 
   return (
     <header
-      className={`w-full  min-h-[120px] z-[1000] flex items-center  ${styles.bg}`}
+      className={`w-full  min-h-[90px] lg:min-h-[120px] z-[1000] flex items-center  ${styles.bg}`}
     >
       <div className="w-full h-full relative flex items-center ">
         <div className="container px-5 xl:px-0 justify-between flex items-center w-full h-full">
@@ -45,7 +45,7 @@ export const Header = () => {
             <img
               src="/sponge_logo.png"
               alt="logo"
-              className="w-[90px] h-[90px]"
+              className="w-[75px] h-[75px] lg:w-[90px] lg:h-[90px]"
             />
           </Link>
           <ul
