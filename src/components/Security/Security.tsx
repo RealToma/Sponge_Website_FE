@@ -1,4 +1,4 @@
-import { Button } from "../../common";
+// import { Button } from "../../common";
 import styles from "./Security.module.css";
 
 import gsap from "gsap";
@@ -108,14 +108,14 @@ export const Security = () => {
                 Advanced encryption protects your <br /> transactions.
               </p>
 
-              <div className="absolute -bottom-4 xl:-bottom-8 left-1/2 -translate-x-1/2">
+              {/* <div className="absolute -bottom-4 xl:-bottom-8 left-1/2 -translate-x-1/2">
                 <Button
                   className="montserrat transition-all duration-500 hover:!bg-black hover:!text-[#F3D583] text-[8px] md:!text-[10px]  xl:!text-[16px] !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#F3D583] !text-black"
                   borderColor="#F3D583"
                 >
                   LEARN MORE
                 </Button>
-              </div>
+              </div> */}
             </div>
 
             <div
@@ -130,14 +130,14 @@ export const Security = () => {
                 authentication
               </p>
 
-              <div className="absolute -bottom-4 xl:-bottom-8 left-1/2 -translate-x-1/2">
+              {/* <div className="absolute -bottom-4 xl:-bottom-8 left-1/2 -translate-x-1/2">
                 <Button
                   className="montserrat transition-all duration-500 hover:!bg-black hover:!text-[#F3D583] text-[8px] md:!text-[10px]  xl:!text-[16px] !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#F3D583] !text-black"
                   borderColor="#F3D583"
                 >
                   LEARN MORE
                 </Button>
-              </div>
+              </div> */}
             </div>
 
             <div
@@ -152,14 +152,14 @@ export const Security = () => {
                 attempts
               </p>
 
-              <div className="absolute -bottom-4 xl:-bottom-8 left-1/2 -translate-x-1/2">
+              {/* <div className="absolute -bottom-4 xl:-bottom-8 left-1/2 -translate-x-1/2">
                 <Button
                   className="montserrat transition-all duration-500 hover:!bg-black hover:!text-[#F3D583] text-[8px] md:!text-[10px]  xl:!text-[16px] !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#F3D583] !text-black"
                   borderColor="#F3D583"
                 >
                   LEARN MORE
                 </Button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
