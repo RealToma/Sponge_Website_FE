@@ -1,7 +1,7 @@
 .custom-cursor {
   position: fixed;
   pointer-events: none;
-  z-index: 9999;
+  z-index: 999999;
   transition: transform 0.15s ease;
 }
 
