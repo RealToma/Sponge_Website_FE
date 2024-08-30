@@ -10,6 +10,7 @@ import {
   Team,
   Tokenomics,
 } from "../../components";
+import { HowToBuy } from "../../components/HowToBuy";
 import { Layout } from "../../layout";
 
 export const Home = () => (
@@ -19,6 +20,7 @@ export const Home = () => (
     <Tokenomics />
     <Airdrop />
     <Presale />
+    <HowToBuy />
     <Roadmap />
     <Team />
     <GeneralOverview />

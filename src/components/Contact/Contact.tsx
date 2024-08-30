@@ -10,13 +10,13 @@ export const Contact = () => {
         <h1 className=" text-[28px] xl:text-7xl text-[#c23631] luckiest font-normal leading-[72px] text-center">
           Contact Us
         </h1>
-        <p className=" text-base xl:text-lg mt-3 paytone font-normal text-[#EEEEEE] leading-6 text-center">
+        {/* <p className=" text-base xl:text-lg mt-3 paytone font-normal text-[#EEEEEE] leading-6 text-center">
           Email us at{" "}
           <a href="#" className="text-[#c23631]">
             support@sponge.io
           </a>{" "}
           for any <br /> queries or support
-        </p>
+        </p> */}
         <div className="flex pb-[48px] justify-center gap-x-6 mt-[28px]">
           {SOCIALMEDIAS.map((media, index) => (
             <a

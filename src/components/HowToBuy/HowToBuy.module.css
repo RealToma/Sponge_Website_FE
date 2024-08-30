@@ -1,0 +1,30 @@
+.blur {
+  background: linear-gradient(180deg, #6e9fac 10%, #0c2c50 72.46%);
+  filter: blur(20.299999237060547px);
+
+  @media (max-width: 900px) {
+    filter: blur(13px);
+  }
+}
+
+.title_shadow {
+  text-shadow: 0px 4px 5px #000;
+}
+
+.text_border01 {
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  /* Black border effect */
+
+  @media(max-width: 768px) {
+    text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+    /* Black border effect */
+  }
+}
